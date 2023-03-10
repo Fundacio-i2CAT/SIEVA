@@ -1,0 +1,40 @@
+DEBUG:fastapi:[PATH] Model Path:data/model/model-best
+DEBUG:fastapi:[PATH] RawData Path:data/raw_data/
+DEBUG:fastapi:[OPTIONS] Data retrieved? :True
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.26.212.33:9200
+DEBUG:urllib3.connectionpool:http://172.26.212.33:9200 "GET / HTTP/1.1" 200 534
+INFO:elasticsearch:GET http://172.26.212.33:9200/ [status:200 request:0.096s]
+DEBUG:elasticsearch:> None
+DEBUG:elasticsearch:< {
+  "name" : "master-SIEVA",
+  "cluster_name" : "sieva",
+  "cluster_uuid" : "vTHzgBsISO6IhptLCSEzpw",
+  "version" : {
+    "number" : "7.17.5",
+    "build_flavor" : "default",
+    "build_type" : "deb",
+    "build_hash" : "8d61b4f7ddf931f219e3745f295ed2bbc50c8e84",
+    "build_date" : "2022-06-23T21:57:28.736740635Z",
+    "build_snapshot" : false,
+    "lucene_version" : "8.11.1",
+    "minimum_wire_compatibility_version" : "6.8.0",
+    "minimum_index_compatibility_version" : "6.0.0-beta1"
+  },
+  "tagline" : "You Know, for Search"
+}
+
+DEBUG:urllib3.connectionpool:http://172.26.212.33:9200 "HEAD / HTTP/1.1" 200 0
+INFO:elasticsearch:HEAD http://172.26.212.33:9200/ [status:200 request:0.051s]
+DEBUG:elasticsearch:> None
+DEBUG:elasticsearch:< 
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Finished server process [35242]
+ERROR:uvicorn.error:Traceback (most recent call last):
+  File "/home/alexi2cat/Escriptori/i2Cat/sieva/venv/lib/python3.10/site-packages/starlette/routing.py", line 638, in lifespan
+    await receive()
+  File "/home/alexi2cat/Escriptori/i2Cat/sieva/venv/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+

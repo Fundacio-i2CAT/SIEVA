@@ -1,0 +1,28 @@
+MITRE_MAPPING = {
+    "firewall-fortigate"    :   ["Firewall:*", "Network Traffic: Network Connection Creation"],
+    "firewall-paloalto"     :   ["Firewall:*", "Network Traffic: Network Connection Creation"],
+    "firewall-sample"       :   ["Firewall:*", "Network Traffic: Network Connection Creation"],
+    "dns-generic"           :   ["Network Traffic Content", "Domain Name: Active DNS"],
+    "dns-infoblox-nios"     :   ["Network Traffic Content", "Domain Name: Active DNS"],
+    "webproxy-squid"        :   ["Network Traffic Content", "Domain Name: Active DNS"],
+    "webserver-nginx"       :	["Network Traffic Content (webserver)", "Domain Name: Active DNS"],
+    "webserver-generic"     :   ["Network Traffic Content (webserver)", "Domain Name: Active DNS"],
+    "dhcp-server-linux"     :	["Network Traffic Content (DHCP)", "Domain Name: Active DNS"],
+    "win-system-cert_util"  :   ["Certificate: Certificate Registration"],
+    "identity-service-cisco":	["User Account: User Account Authentication", "User Account: User Account Creation", "User Account: User Account Deletion", "User Account: User Account Modification", "User Account: User Account Metadata", "User Account: User Account Modification"],
+    "microsoft-windows-evtx":   ["Process: OS API Execution", "Process: Process Access", "Process: Process Creation", "Process: Process Metadata", "Process: Process Modification", "Process: Process Termination"],
+    "winlogbeat-*"          :   ["Process: OS API Execution", "Process: Process Access", "Process: Process Creation", "Process: Process Metadata", "Process: Process Modification", "Process: Process Termination", "Windows Registry: Windows Registry Key Access", "Windows Registry: Windows Registry Key Creation", "Windows Registry: Windows Registry Key Deletion", "Windows Registry: Windows Registry Key Modification"]
+    }
+
+
+MITRE_MAPPING = {
+    "firewall"      :   ["Firewall:*", "Network Traffic: Network Connection Creation"],
+    "dns"           :   ["Network Traffic Content", "Domain Name: Active DNS"],
+    "webserver"     :   ["Network Traffic Content (webserver)", "Domain Name: Active DNS"],
+    "dhcp"          :  	["Network Traffic Content (DHCP)", "Domain Name: Active DNS"],
+    "win-cert"      :   ["Certificate: Certificate Registration"],
+    "identity"      :  	["User Account: User Account Authentication", "User Account: User Account Creation", "User Account: User Account Deletion", "User Account: User Account Modification", "User Account: User Account Metadata", "User Account: User Account Modification"],
+    "evtx"          :   ["Process: OS API Execution", "Process: Process Access", "Process: Process Creation", "Process: Process Metadata", "Process: Process Modification", "Process: Process Termination"],
+    "filebeat"      :   ["Waiting..."],
+    "winlogbeat-*"  :   ["Process: OS API Execution", "Process: Process Access", "Process: Process Creation", "Process: Process Metadata", "Process: Process Modification", "Process: Process Termination", "Windows Registry: Windows Registry Key Access", "Windows Registry: Windows Registry Key Creation", "Windows Registry: Windows Registry Key Deletion", "Windows Registry: Windows Registry Key Modification"]
+    }

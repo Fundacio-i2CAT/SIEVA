@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  plots:
+    build:
+      context: ./sieva_plots
+    image: sieva_plots
+    ports:
+     - '9001:80'
+  attack-navigator:
+    build:
+      context: ./nav-app
+    image: attack_navigator
+    ports:
+     - '9000:80'
+  fastapi-back:
+    build:
+      context: .
+    image: fastapi-app:1.0.0
+    ports:
+      - '8081:8081'

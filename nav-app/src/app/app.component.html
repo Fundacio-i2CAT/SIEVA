@@ -1,0 +1,46 @@
+<div [ngClass]="user_theme">
+    <mat-toolbar class="custom-toolbar">
+        <h3>sieva</h3>
+    </mat-toolbar>
+    <div class="nav-app">
+        <div class="nav-bar">
+
+            <mat-button-toggle-group name="fontStyle" aria-label="Font Style" [value]="selectedVal">
+                <mat-button-toggle value="home">
+                    <a [href]="apiURL + ':'+ matrixPort">
+                        <mat-card>
+                            mitre | att&ck
+                        </mat-card>
+                    </a>
+                </mat-button-toggle>
+                <mat-button-toggle>
+                    <a [href]="apiURL + ':'+ plotsPort">
+                        <mat-card class="data-analysis">Data Analysis</mat-card>
+                    </a>
+                </mat-button-toggle>
+            </mat-button-toggle-group>
+            <p class="description">Mitre | Att&ck Matrix - Navigator</p>
+        </div>
+    </div>
+</div>
+
+
+<div [ngClass]="user_theme">
+    <router-outlet></router-outlet>
+</div>
+
+
+<div class="controls">
+    <mat-card><button mat-stroked-button (click)="toggleFullClick()">Toggle Full</button></mat-card>
+    <mat-card>
+        <mat-form-field [ngStyle]="{'background-color': newColor}" appearance="fill">
+            <mat-label>Complete</mat-label>
+            <mat-select [(value)]="availability" (selectionChange)="selectChanged($event)">
+                <mat-option [ngStyle]="{'background-color': complete}" value="complete">Complete</mat-option>
+                <mat-option [ngStyle]="{'background-color': partial}" value="partial">Partial</mat-option>
+                <mat-option [ngStyle]="{'background-color': missing}" value="missing">Missing</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </mat-card>
+
+</div>

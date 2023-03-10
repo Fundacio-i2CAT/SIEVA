@@ -1,0 +1,206 @@
+
+
+
+
+{
+    "versions": [
+        {
+            "name": "ATT&CK v11",
+            "version": "11",
+            "domains": [
+                {   
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v11.3/enterprise-attack/enterprise-attack.json"]
+                },
+                {   
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v11.3/mobile-attack/mobile-attack.json"]
+                },
+                {
+                    "name": "ICS",
+                    "identifier": "ics-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v11.3/ics-attack/ics-attack.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v10", 
+            "version": "10",
+            "domains": [
+                {
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v10.1/enterprise-attack/enterprise-attack.json"]
+                },
+                {
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v10.1/mobile-attack/mobile-attack.json"]
+                },
+                {
+                    "name": "ICS",
+                    "identifier": "ics-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v10.1/ics-attack/ics-attack.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v9",
+            "version": "9",
+            "domains": [
+                {
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v9.0/enterprise-attack/enterprise-attack.json"]
+                },
+                {
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v9.0/mobile-attack/mobile-attack.json"]
+                },
+                {
+                    "name": "ICS",
+                    "identifier": "ics-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v9.0/ics-attack/ics-attack.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v8",
+            "version": "8",
+            "domains": [
+                {
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v8.2/enterprise-attack/enterprise-attack.json"]
+                },
+                {
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v8.2/mobile-attack/mobile-attack.json"]
+                },
+                {
+                    "name": "ICS",
+                    "identifier": "ics-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v8.2/ics-attack/ics-attack.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v7",
+            "version": "7",
+            "domains": [
+                {
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v7.2/enterprise-attack/enterprise-attack.json"]
+                },
+                {
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v7.2/mobile-attack/mobile-attack.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v6",
+            "version": "6",
+            "domains": [
+                {
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v6.3/enterprise-attack/enterprise-attack.json"]
+                },
+                {
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v6.3/mobile-attack/mobile-attack.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v5",
+            "version": "5",
+            "domains": [
+                {
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v5.2/enterprise-attack/enterprise-attack.json"]
+                },
+                {
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v5.2/mobile-attack/mobile-attack.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v4",
+            "version": "4",
+            "domains": [
+                {
+                    "name": "Enterprise",
+                    "identifier": "enterprise-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v4.0/enterprise-attack/enterprise-attack.json"]
+                },
+                {
+                    "name": "Mobile",
+                    "identifier": "mobile-attack",
+                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v4.0/mobile-attack/mobile-attack.json"]
+                }
+            ]
+        }
+    ],
+
+    "custom_context_menu_items": [
+
+    ],
+
+    "default_layers": {
+        "enabled": true,
+        "urls": ["http://172.26.212.33:8081/loadConfig"]
+    },
+
+    "comment_color": "yellow",
+    "link_color": "blue",
+
+    "banner": "",
+
+    "features": [
+        {"name": "leave_site_dialog", "enabled": false, "description": "Disable to remove the dialog prompt when leaving site."},
+        {"name": "tabs", "enabled": false, "description": "Disable to remove the ability to open new tabs."},
+        {"name": "selecting_techniques", "enabled": false, "description": "Disable to remove the ability to select techniques."},
+        {"name": "header", "enabled": false, "description": "Disable to remove the header containing 'MITRE ATT&CK Navigator' and the link to the help page. The help page can still be accessed from the new tab menu."},
+        {"name": "subtechniques", "enabled": false, "description": "Disable to remove all sub-technique features from the interface."},
+        {"name": "selection_controls", "enabled": false, "description": "Disable to to disable all subfeatures", "subfeatures": [
+            {"name": "search", "enabled": false, "description": "Disable to remove the technique search panel from the interface."},
+            {"name": "multiselect", "enabled": false, "description": "Disable to remove the multiselect panel from interface."},
+            {"name": "deselect_all", "enabled": false, "description": "Disable to remove the deselect all button from the interface."}
+        ]},
+        {"name": "layer_controls", "enabled": false, "description": "Disable to disable all subfeatures", "subfeatures": [
+            {"name": "layer_info", "enabled": false, "description": "Disable to remove the layer info (name, description and layer metadata) panel from the interface. Note that the layer can still be renamed in the tab."},
+            {"name": "download_layer", "enabled": false, "description": "Disable to remove the button to download the layer."},
+            {"name": "export_render", "enabled": false, "description": "Disable to remove the button to render the current layer."},
+            {"name": "export_excel", "enabled": false, "description": "Disable to remove the button to export the current layer to MS Excel (.xlsx) format."},
+            {"name": "filters", "enabled": false, "description": "Disable to remove the filters panel from interface."},
+            {"name": "sorting", "enabled": false, "description": "Disable to remove the sorting button from the interface."},
+            {"name": "color_setup", "enabled": false, "description": "Disable to remove the color setup panel from interface, containing customization controls for scoring gradient and tactic row color."},
+            {"name": "toggle_hide_disabled", "enabled": false, "description": "Disable to remove the hide disabled techniques button from the interface."},
+            {"name": "layout_controls", "enabled": false, "description": "Disable to remove the ability to change the current matrix layout."},
+            {"name": "legend", "enabled": false, "description": "Disable to remove the legend panel from the interface."}
+        ]},
+        {"name": "technique_controls", "enabled": false, "description": "Disable to disable all subfeatures", "subfeatures": [
+            {"name": "disable_techniques", "enabled": false, "description": "Disable to remove the ability to disable techniques."},
+            {"name": "manual_color", "enabled": false, "description": "Disable to remove the ability to assign manual colors to techniques."},
+            {"name": "scoring", "enabled": false, "description": "Disable to remove the ability to score techniques."},
+            {"name": "comments", "enabled": false, "description": "Disable to remove the ability to add comments to techniques."},
+            {"name": "comment_underline", "enabled": false, "description": "Disable to remove the comment underline effect on techniques."},
+            {"name": "links", "enabled": false, "description": "Disable to remove the ability to assign hyperlinks to techniques."},
+            {"name": "link_underline", "enabled": false, "description": "Disable to remove the hyperlink underline effect on techniques."},
+            {"name": "metadata", "enabled": false, "description": "Disable to remove the ability to add metadata to techniques."},
+            {"name": "clear_annotations", "enabled": false, "description": "Disable to remove the button to clear all annotations on the selected techniques."}
+        ]}
+    ]
+}

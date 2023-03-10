@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Welcome to SIEVA’s documentation! &#8212; SIEVA 1.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. Introduction to SIEVA" href="summary.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="welcome-to-sieva-s-documentation">
+<h1>Welcome to SIEVA’s documentation!<a class="headerlink" href="#welcome-to-sieva-s-documentation" title="Permalink to this heading">¶</a></h1>
+<p>So far, SIEVA is a machine learning powered software to train a model that is capable to receive
+a text message (precisely a traffic log) as an input and identify from which protocol that log comes from.</p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+<section id="quickstart">
+<h1>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h1>
+<p>If you wish to run the API locally, you can use the following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> SIEVA/
+pip install -r requirements.txt
+uvicorn src.main:app --reload --port <span class="m">8081</span> --reload
+</pre></div>
+</div>
+<p>Once it has started, you can open your browser to <a class="reference external" href="http://127.0.0.1:8081/docs">http://127.0.0.1:8081/docs</a></p>
+</section>
+<section id="configuration-file">
+<h1>Configuration File<a class="headerlink" href="#configuration-file" title="Permalink to this heading">¶</a></h1>
+<p>There are some parameters defined by the configuration file <cite>src/config_files/config.ini</cite>.</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[PATH]</span><span class="w"></span>
+<span class="na">RAW_PATH</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">data/raw_data/</span><span class="w"></span>
+<span class="na">DATASET_PATH</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">data/datasets/</span><span class="w"></span>
+<span class="na">MODEL_PATH</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">data/model/</span><span class="w"></span>
+<span class="na">MODEL_PATH_COMPLETENESS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">data/model/model-best</span><span class="w"></span>
+<span class="na">PREDICTIONS_PATH</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">data/predictions/</span><span class="w"></span>
+
+<span class="k">[ELASTIC]</span><span class="w"></span>
+<span class="na">CLIENT_HOST</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">172.26.212.33</span><span class="w"></span>
+
+<span class="k">[OPTIONS]</span><span class="w"></span>
+<span class="na">RETRIEVE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">True</span><span class="w"></span>
+<span class="na">PREPARE_DATA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">True</span><span class="w"></span>
+<span class="na">RETRIEVE_COMPLETENESS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">True</span><span class="w"></span>
+</pre></div>
+</div>
+</section>
+<section id="navigation">
+<h1>Navigation<a class="headerlink" href="#navigation" title="Permalink to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">1. Introduction to SIEVA</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="summary.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="summary.html#realized-tasks">Realized tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="summary.html#results-obtained">Results obtained</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">2. Dataset</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data.html#raw-data">Raw Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#fasttext-library">Fasttext library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#feature-engineering">Feature Engineering</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="model.html">3. ML-based model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="model.html#model">Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="model.html#results">Results</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="integration.html">4. Integration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="integration.html#api-routes">API Routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="integration.html#project-structure">Project Structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="handson.html">5. Hands-on</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="handson.html#configuration-file">0. Configuration File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="handson.html#start-the-api">1. Start the API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="handson.html#endpoint-1-2-predict">2. Endpoint 1/2: Predict</a></li>
+<li class="toctree-l2"><a class="reference internal" href="handson.html#endpoint-2-2-train">3. Endpoint 2/2: Train</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">SIEVA</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">1. Introduction to SIEVA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">2. Dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model.html">3. ML-based model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="integration.html">4. Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="handson.html">5. Hands-on</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="summary.html" title="next chapter">1. Introduction to SIEVA</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Alexandre Sánchez Casals for i2Cat.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<div [ngClass]="'tooltip ' + placement" [style.width]="isCellPinned ? '200ch' : ''">
+    <table>
+        <tr>
+            <td colspan=2 class="technique-name">
+                {{technique.name}} ({{technique.attackID}})
+            </td>
+        </tr>
+        <tr *ngIf="!techniqueVM.enabled">
+            <td colspan=2>Disabled</td>
+        </tr>
+        <tr *ngIf="techniqueVM.score">
+            <td>Score:</td>
+            <td>{{techniqueVM.score}}
+            </td>
+        </tr>
+        <tr *ngIf="technique.subtechniques.length > 0 && viewModel.layout.showAggregateScores && techniqueVM.aggregateScore.length > 0">
+            <td>Aggregate Score ({{viewModel.layout.aggregateFunction}}):</td>
+            <td>{{techniqueVM.aggregateScore}}</td>
+        </tr>
+        <tr *ngIf="techniqueVM.comment">
+            <td>Comment:</td>
+            <td>{{techniqueVM.comment}}</td>
+        </tr>
+        <tr *ngFor="let note of notes">
+            <td *ngIf="note.abstract" class="wrap">{{note.abstract}}:</td>
+            <td class="wrap" [attr.colspan]="note.abstract ? '1' : '2'">{{note.content}}</td>
+        </tr>
+        <tr *ngFor="let metadata of techniqueVM.metadata">
+            <td *ngIf="metadata.divider" class="divider" colspan=2><hr></td>
+            <td *ngIf="!metadata.divider">{{metadata.name}}:</td>
+            <td *ngIf="!metadata.divider">{{metadata.value}}</td>
+        </tr>
+    </table>
+</div>

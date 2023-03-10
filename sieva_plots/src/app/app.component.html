@@ -1,0 +1,27 @@
+<mat-toolbar class="custom-toolbar">
+    <h3>sieva</h3>
+</mat-toolbar>
+
+<div class="container">
+    <div class="nav-bar">
+
+        <mat-button-toggle-group name="fontStyle" aria-label="Font Style" [value]="selectedVal">
+            <mat-button-toggle value="home">
+                <a [href]="apiURL + ':'+ matrixPort">
+                    <mat-card>
+                        mitre | att&ck
+                    </mat-card>
+                </a>
+            </mat-button-toggle>
+            <mat-button-toggle value="plots">
+                <a [href]="apiURL + ':'+ plotsPort">
+                    <mat-card class="data-analysis">Data Analysis</mat-card>
+                </a>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+        <p class="description">Mitre | Att&ck Matrix - Data Visualization</p>
+    </div>
+
+    <app-stacked-horizontal-bar-plot></app-stacked-horizontal-bar-plot>
+
+</div>

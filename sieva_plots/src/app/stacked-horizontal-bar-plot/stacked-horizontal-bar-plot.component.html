@@ -1,0 +1,20 @@
+<div class="container">
+
+    <div class="graphs">
+        <zingchart-angular *ngFor="let config of arr_configs_final" 
+            [width]="900" [height]="300" 
+            [config]="config"
+            (click)="getdata($event, config)"
+            ></zingchart-angular>
+    </div>
+
+
+    <div class="graph__data" [ngClass]="clicked ? 'shown' : 'hidden'">
+        <p [innerHTML]="graph_data"></p>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="close" (click)="clicked = !clicked ; graph_data = '' "></mat-icon>
+    </div>
+
+
+    <ngx-ui-loader></ngx-ui-loader>
+
+</div>

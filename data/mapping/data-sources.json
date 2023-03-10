@@ -1,0 +1,90 @@
+[
+    {
+        "data source": "Application Log",
+        "data component": " Application Log Content"
+    },
+    {
+        "data source": "Network Traffic",
+        "data component": " Network Traffic Content"
+    },
+    {
+        "data source": "Network Traffic",
+        "data component": " Network Traffic Flow"
+    },
+    {
+        "data source": "Network Traffic",
+        "data component": " Network Connection Creation"
+    },
+    {
+        "data source": "Domain Name",
+        "data component": " Active DNS"
+    },
+    {
+        "data source": "Certificate",
+        "data component": " Certificate Registration"
+    },
+    {
+        "data source": "User Account",
+        "data component": " User Account Authentication"
+    },
+    {
+        "data source": "User Account",
+        "data component": " User Account Creation"
+    },
+    {
+        "data source": "User Account",
+        "data component": " User Account Deletion"
+    },
+    {
+        "data source": "User Account",
+        "data component": " User Account Modification"
+    },
+    {
+        "data source": "User Account",
+        "data component": " User Account Metadata"
+    },
+    {
+        "data source": "User Account",
+        "data component": " User Account Modification"
+    },
+    {
+        "data source": "Process",
+        "data component": " OS API Execution"
+    },
+    {
+        "data source": "Process",
+        "data component": " Process Access"
+    },
+    {
+        "data source": "Process",
+        "data component": " Process Creation"
+    },
+    {
+        "data source": "Process",
+        "data component": " Process Metadata"
+    },
+    {
+        "data source": "Process",
+        "data component": " Process Modification"
+    },
+    {
+        "data source": "Process",
+        "data component": " Process Termination"
+    },
+    {
+        "data source": "Windows Registry",
+        "data component": " Windows Registry Key Access"
+    },
+    {
+        "data source": "Windows Registry",
+        "data component": " Windows Registry Key Creation"
+    },
+    {
+        "data source": "Windows Registry",
+        "data component": " Windows Registry Key Deletion"
+    },
+    {
+        "data source": "Windows Registry",
+        "data component": " Windows Registry Key Modification"
+    }
+]

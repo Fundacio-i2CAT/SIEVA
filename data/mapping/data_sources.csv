@@ -1,0 +1,1915 @@
+,technique_id,data_source,data_component
+0,T1205.002,Process,Process Creation
+1,T1205.002,Network Traffic,Network Connection Creation
+2,T1608.006,Internet Scan,Response Content
+3,T1027.009,File,File Creation
+4,T1027.009,File,File Metadata
+5,T1027.008,Module,Module Load
+6,T1027.008,Process,Process Metadata
+7,T1027.008,File,File Metadata
+8,T1556.007,Logon Session,Logon Session Creation
+9,T1556.007,Application Log,Application Log Content
+10,T1556.007,File,File Modification
+11,T1556.007,Module,Module Load
+12,T1546.016,Process,Process Creation
+13,T1546.016,File,File Creation
+14,T1546.016,Command,Command Execution
+15,T1027.007,Process,OS API Execution
+16,T1027.007,Module,Module Load
+17,T1027.007,File,File Metadata
+18,T1593.003,,
+19,T1649,File,File Access
+20,T1649,Active Directory,Active Directory Credential Request
+21,T1649,Application Log,Application Log Content
+22,T1649,Command,Command Execution
+23,T1649,Windows Registry,Windows Registry Key Access
+24,T1649,Logon Session,Logon Session Creation
+25,T1649,Active Directory,Active Directory Object Modification
+26,T1070.009,Windows Registry,Windows Registry Key Deletion
+27,T1070.009,File,File Modification
+28,T1070.009,Windows Registry,Windows Registry Key Modification
+29,T1070.009,Scheduled Job,Scheduled Job Modification
+30,T1070.009,File,File Deletion
+31,T1070.009,Process,Process Creation
+32,T1070.009,Command,Command Execution
+33,T1070.008,File,File Deletion
+34,T1070.008,File,File Modification
+35,T1070.008,Command,Command Execution
+36,T1070.008,Process,Process Creation
+37,T1584.007,Internet Scan,Response Content
+38,T1583.007,Internet Scan,Response Content
+39,T1070.007,Windows Registry,Windows Registry Key Modification
+40,T1070.007,Firewall,Firewall Rule Modification
+41,T1070.007,Command,Command Execution
+42,T1070.007,File,File Modification
+43,T1070.007,Process,Process Creation
+44,T1556.006,Logon Session,Logon Session Creation
+45,T1556.006,User Account,User Account Authentication
+46,T1556.006,Active Directory,Active Directory Object Modification
+47,T1556.006,User Account,User Account Modification
+48,T1586.003,,
+49,T1585.003,,
+50,T1648,Cloud Service,Cloud Service Modification
+51,T1648,Application Log,Application Log Content
+52,T1647,File,File Modification
+53,T1647,Process,Process Creation
+54,T1647,Command,Command Execution
+55,T1647,Service,Service Creation
+56,T1622,Process,OS API Execution
+57,T1622,Command,Command Execution
+58,T1622,Application Log,Application Log Content
+59,T1622,Process,Process Creation
+60,T1621,Application Log,Application Log Content
+61,T1621,Logon Session,Logon Session Creation
+62,T1621,User Account,User Account Authentication
+63,T1621,Logon Session,Logon Session Metadata
+64,T1505.005,File,File Modification
+65,T1505.005,Process,Process Creation
+66,T1505.005,Module,Module Load
+67,T1505.005,Command,Command Execution
+68,T1505.005,Windows Registry,Windows Registry Key Modification
+69,T1557.003,Application Log,Application Log Content
+70,T1557.003,Network Traffic,Network Traffic Content
+71,T1557.003,Network Traffic,Network Traffic Flow
+72,T1595.003,Network Traffic,Network Traffic Content
+73,T1098.005,Application Log,Application Log Content
+74,T1098.005,User Account,User Account Modification
+75,T1098.005,Active Directory,Active Directory Object Creation
+76,T1574.013,Process,OS API Execution
+77,T1556.005,Command,Command Execution
+78,T1556.005,Script,Script Execution
+79,T1556.005,User Account,User Account Metadata
+80,T1556.005,Active Directory,Active Directory Object Modification
+81,T1055.015,Process,OS API Execution
+82,T1055.015,Process,Process Modification
+83,T1564.010,Process,Process Creation
+84,T1564.009,Process,Process Creation
+85,T1564.009,Command,Command Execution
+86,T1564.009,File,File Metadata
+87,T1564.009,File,File Creation
+88,T1559.003,Process,Process Access
+89,T1562.010,Process,Process Creation
+90,T1562.010,Command,Command Execution
+91,T1562.010,Process,Process Metadata
+92,T1547.015,Process,Process Creation
+93,T1547.015,File,File Modification
+94,T1547.015,File,File Creation
+95,T1620,Process,OS API Execution
+96,T1620,Module,Module Load
+97,T1620,Script,Script Execution
+98,T1619,Cloud Storage,Cloud Storage Access
+99,T1619,Cloud Storage,Cloud Storage Enumeration
+100,T1218.014,Command,Command Execution
+101,T1218.014,File,File Creation
+102,T1218.014,Process,Process Creation
+103,T1218.013,Command,Command Execution
+104,T1218.013,Process,Process Creation
+105,T1614.001,Process,Process Creation
+106,T1614.001,Process,OS API Execution
+107,T1614.001,Windows Registry,Windows Registry Key Access
+108,T1614.001,Command,Command Execution
+109,T1615,Process,Process Creation
+110,T1615,Script,Script Execution
+111,T1615,Active Directory,Active Directory Object Access
+112,T1615,Network Traffic,Network Traffic Content
+113,T1615,Command,Command Execution
+114,T1036.007,File,File Creation
+115,T1036.007,File,File Metadata
+116,T1562.009,Command,Command Execution
+117,T1562.009,Windows Registry,Windows Registry Key Creation
+118,T1562.009,Windows Registry,Windows Registry Key Modification
+119,T1562.009,Process,Process Creation
+120,T1564.008,Command,Command Execution
+121,T1564.008,Application Log,Application Log Content
+122,T1564.008,File,File Modification
+123,T1505.004,File,File Creation
+124,T1505.004,File,File Modification
+125,T1505.004,Command,Command Execution
+126,T1027.006,File,File Creation
+127,T1213.003,Application Log,Application Log Content
+128,T1213.003,Logon Session,Logon Session Creation
+129,T1553.006,Windows Registry,Windows Registry Key Modification
+130,T1553.006,Process,Process Creation
+131,T1553.006,Command,Command Execution
+132,T1614,Process,Process Creation
+133,T1614,Process,OS API Execution
+134,T1614,Command,Command Execution
+135,T1614,Instance,Instance Metadata
+136,T1613,Pod,Pod Metadata
+137,T1613,Container,Container Metadata
+138,T1613,Application Log,Application Log Content
+139,T1613,Container,Container Enumeration
+140,T1613,Pod,Pod Enumeration
+141,T1613,Cluster,Cluster Metadata
+142,T1552.007,User Account,User Account Authentication
+143,T1552.007,Command,Command Execution
+144,T1552.007,File,File Access
+145,T1612,Image,Image Creation
+146,T1612,Network Traffic,Network Connection Creation
+147,T1612,Network Traffic,Network Traffic Flow
+148,T1612,Network Traffic,Network Traffic Content
+149,T1611,Kernel,Kernel Module Load
+150,T1611,Volume,Volume Modification
+151,T1611,Process,OS API Execution
+152,T1611,Container,Container Creation
+153,T1611,Process,Process Creation
+154,T1204.003,Container,Container Start
+155,T1204.003,Command,Command Execution
+156,T1204.003,Instance,Instance Creation
+157,T1204.003,Application Log,Application Log Content
+158,T1204.003,Image,Image Creation
+159,T1204.003,Instance,Instance Start
+160,T1204.003,Container,Container Creation
+161,T1053.007,Scheduled Job,Scheduled Job Creation
+162,T1053.007,Container,Container Creation
+163,T1053.007,File,File Creation
+164,T1610,Container,Container Creation
+165,T1610,Container,Container Start
+166,T1610,Pod,Pod Creation
+167,T1610,Application Log,Application Log Content
+168,T1610,Pod,Pod Modification
+169,T1609,Command,Command Execution
+170,T1609,Process,Process Creation
+171,T1608.005,Internet Scan,Response Content
+172,T1608.004,Internet Scan,Response Content
+173,T1608.003,Internet Scan,Response Content
+174,T1608.002,Internet Scan,Response Content
+175,T1608.001,Internet Scan,Response Content
+176,T1608,Internet Scan,Response Content
+177,T1016.001,Process,Process Creation
+178,T1016.001,Command,Command Execution
+179,T1553.005,File,File Metadata
+180,T1553.005,File,File Creation
+181,T1555.005,Command,Command Execution
+182,T1555.005,File,File Access
+183,T1555.005,Process,OS API Execution
+184,T1555.005,Process,Process Access
+185,T1484.002,Command,Command Execution
+186,T1484.002,Active Directory,Active Directory Object Creation
+187,T1484.002,Active Directory,Active Directory Object Modification
+188,T1484.001,Active Directory,Active Directory Object Deletion
+189,T1484.001,Active Directory,Active Directory Object Modification
+190,T1484.001,Command,Command Execution
+191,T1484.001,Active Directory,Active Directory Object Creation
+192,T1547.014,Process,Process Creation
+193,T1547.014,Command,Command Execution
+194,T1547.014,Windows Registry,Windows Registry Key Modification
+195,T1547.014,Windows Registry,Windows Registry Key Creation
+196,T1606.002,User Account,User Account Authentication
+197,T1606.002,Logon Session,Logon Session Creation
+198,T1606.002,Web Credential,Web Credential Usage
+199,T1606.002,Logon Session,Logon Session Metadata
+200,T1606.002,Web Credential,Web Credential Creation
+201,T1606.001,Web Credential,Web Credential Creation
+202,T1606.001,Web Credential,Web Credential Usage
+203,T1606.001,Logon Session,Logon Session Creation
+204,T1606,Logon Session,Logon Session Creation
+205,T1606,Web Credential,Web Credential Creation
+206,T1606,Web Credential,Web Credential Usage
+207,T1555.004,Process,Process Creation
+208,T1555.004,Command,Command Execution
+209,T1555.004,File,File Access
+210,T1555.004,Process,OS API Execution
+211,T1059.008,Command,Command Execution
+212,T1602.002,Network Traffic,Network Traffic Content
+213,T1602.002,Network Traffic,Network Connection Creation
+214,T1542.005,Network Traffic,Network Connection Creation
+215,T1542.005,Firmware,Firmware Modification
+216,T1542.005,Command,Command Execution
+217,T1542.004,Firmware,Firmware Modification
+218,T1602.001,Network Traffic,Network Traffic Content
+219,T1602.001,Network Traffic,Network Connection Creation
+220,T1602,Network Traffic,Network Connection Creation
+221,T1602,Network Traffic,Network Traffic Content
+222,T1601.002,File,File Modification
+223,T1601.001,File,File Modification
+224,T1601,File,File Modification
+225,T1600.002,File,File Modification
+226,T1600.001,File,File Modification
+227,T1600,File,File Modification
+228,T1556.004,File,File Modification
+229,T1599.001,Network Traffic,Network Traffic Content
+230,T1599.001,Network Traffic,Network Traffic Flow
+231,T1599,Network Traffic,Network Traffic Content
+232,T1599,Network Traffic,Network Traffic Flow
+233,T1020.001,Network Traffic,Network Traffic Flow
+234,T1020.001,Network Traffic,Network Connection Creation
+235,T1557.002,Network Traffic,Network Traffic Content
+236,T1557.002,Network Traffic,Network Traffic Flow
+237,T1588.006,,
+238,T1053.006,File,File Modification
+239,T1053.006,Command,Command Execution
+240,T1053.006,Scheduled Job,Scheduled Job Creation
+241,T1053.006,Process,Process Creation
+242,T1562.008,Cloud Service,Cloud Service Disable
+243,T1562.008,Cloud Service,Cloud Service Modification
+244,T1547.012,Windows Registry,Windows Registry Key Modification
+245,T1547.012,Process,OS API Execution
+246,T1547.012,Driver,Driver Load
+247,T1547.012,Module,Module Load
+248,T1547.012,File,File Creation
+249,T1598.003,Network Traffic,Network Traffic Flow
+250,T1598.003,Application Log,Application Log Content
+251,T1598.003,Network Traffic,Network Traffic Content
+252,T1598.003,Network Traffic,Network Connection Creation
+253,T1598.002,Network Traffic,Network Traffic Flow
+254,T1598.002,Network Traffic,Network Traffic Content
+255,T1598.002,Application Log,Application Log Content
+256,T1598.001,Network Traffic,Network Traffic Flow
+257,T1598.001,Application Log,Application Log Content
+258,T1598.001,Network Traffic,Network Traffic Content
+259,T1598,Network Traffic,Network Traffic Flow
+260,T1598,Network Traffic,Network Traffic Content
+261,T1598,Application Log,Application Log Content
+262,T1597.002,,
+263,T1597.001,,
+264,T1597,,
+265,T1596.005,,
+266,T1596.004,,
+267,T1596.003,,
+268,T1596.001,,
+269,T1596.002,,
+270,T1596,,
+271,T1595.002,Network Traffic,Network Traffic Flow
+272,T1595.002,Network Traffic,Network Traffic Content
+273,T1595.001,Network Traffic,Network Traffic Flow
+274,T1595,Network Traffic,Network Traffic Content
+275,T1595,Network Traffic,Network Traffic Flow
+276,T1594,Application Log,Application Log Content
+277,T1593.002,,
+278,T1593.001,,
+279,T1593,,
+280,T1592.004,Internet Scan,Response Content
+281,T1592.003,,
+282,T1592.002,Internet Scan,Response Content
+283,T1592.001,Internet Scan,Response Content
+284,T1592,Internet Scan,Response Content
+285,T1591.004,,
+286,T1591.003,,
+287,T1591.001,,
+288,T1591.002,,
+289,T1591,,
+290,T1590.006,,
+291,T1590.005,,
+292,T1590.004,,
+293,T1590.003,,
+294,T1590.002,,
+295,T1590.001,,
+296,T1590,,
+297,T1589.003,,
+298,T1589.002,Network Traffic,Network Traffic Content
+299,T1589.001,,
+300,T1589,Network Traffic,Network Traffic Content
+301,T1589,Network Traffic,Network Traffic Content
+302,T1588.005,,
+303,T1588.004,Certificate,Certificate Registration
+304,T1588.004,Internet Scan,Response Content
+305,T1588.003,Malware Repository,Malware Metadata
+306,T1588.002,Malware Repository,Malware Metadata
+307,T1588.001,Malware Repository,Malware Metadata
+308,T1588.001,Malware Repository,Malware Content
+309,T1588,Malware Repository,Malware Content
+310,T1588,Certificate,Certificate Registration
+311,T1588,Malware Repository,Malware Metadata
+312,T1588,Internet Scan,Response Content
+313,T1587.004,,
+314,T1587.003,Internet Scan,Response Content
+315,T1587.002,Malware Repository,Malware Metadata
+316,T1587.001,Malware Repository,Malware Metadata
+317,T1587.001,Malware Repository,Malware Content
+318,T1587,Malware Repository,Malware Metadata
+319,T1587,Malware Repository,Malware Content
+320,T1587,Internet Scan,Response Content
+321,T1586.002,,
+322,T1586.001,Network Traffic,Network Traffic Content
+323,T1586.001,Persona,Social Media
+324,T1586,Persona,Social Media
+325,T1586,Network Traffic,Network Traffic Content
+326,T1585.002,,
+327,T1585.001,Persona,Social Media
+328,T1585.001,Network Traffic,Network Traffic Content
+329,T1585,Network Traffic,Network Traffic Content
+330,T1585,Persona,Social Media
+331,T1584.006,Internet Scan,Response Content
+332,T1584.005,,
+333,T1584.004,Internet Scan,Response Metadata
+334,T1584.004,Internet Scan,Response Content
+335,T1584.003,Internet Scan,Response Metadata
+336,T1584.003,Internet Scan,Response Content
+337,T1584.002,Domain Name,Active DNS
+338,T1584.002,Domain Name,Passive DNS
+339,T1584.001,Domain Name,Domain Registration
+340,T1584.001,Domain Name,Active DNS
+341,T1584.001,Domain Name,Passive DNS
+342,T1583.006,Internet Scan,Response Content
+343,T1583.005,,
+344,T1583.004,Internet Scan,Response Content
+345,T1583.004,Internet Scan,Response Metadata
+346,T1583.003,Internet Scan,Response Content
+347,T1583.003,Internet Scan,Response Metadata
+348,T1583.002,,
+349,T1584,Domain Name,Domain Registration
+350,T1584,Domain Name,Passive DNS
+351,T1584,Domain Name,Active DNS
+352,T1584,Internet Scan,Response Metadata
+353,T1584,Internet Scan,Response Content
+354,T1583.001,Network Traffic,Network Traffic Content
+355,T1583.001,Network Traffic,Network Connection Creation
+356,T1583.001,Domain Name,Passive DNS
+357,T1583.001,Domain Name,Active DNS
+358,T1583.001,Application Log,Application Log Content
+359,T1583.001,Domain Name,Domain Registration
+360,T1583,Domain Name,Passive DNS
+361,T1583,Domain Name,Active DNS
+362,T1583,Domain Name,Domain Registration
+363,T1583,Internet Scan,Response Content
+364,T1583,Internet Scan,Response Metadata
+365,T1564.007,File,File Metadata
+366,T1564.007,Script,Script Execution
+367,T1558.004,Active Directory,Active Directory Credential Request
+368,T1580,Cloud Storage,Cloud Storage Metadata
+369,T1580,Volume,Volume Enumeration
+370,T1580,Snapshot,Snapshot Enumeration
+371,T1580,Snapshot,Snapshot Metadata
+372,T1580,Volume,Volume Metadata
+373,T1580,Cloud Storage,Cloud Storage Enumeration
+374,T1580,Instance,Instance Metadata
+375,T1580,Instance,Instance Enumeration
+376,T1218.012,Process,Process Creation
+377,T1218.012,Command,Command Execution
+378,T1205.001,Network Traffic,Network Connection Creation
+379,T1205.001,Network Traffic,Network Traffic Flow
+380,T1564.006,Image,Image Metadata
+381,T1564.006,Command,Command Execution
+382,T1564.006,File,File Creation
+383,T1564.006,Process,Process Creation
+384,T1564.006,Windows Registry,Windows Registry Key Modification
+385,T1564.006,Service,Service Creation
+386,T1564.005,Firmware,Firmware Modification
+387,T1564.005,Windows Registry,Windows Registry Key Modification
+388,T1564.005,File,File Modification
+389,T1556.003,File,File Modification
+390,T1556.003,Logon Session,Logon Session Creation
+391,T1574.012,Module,Module Load
+392,T1574.012,Command,Command Execution
+393,T1574.012,Process,Process Creation
+394,T1574.012,Windows Registry,Windows Registry Key Modification
+395,T1562.007,Firewall,Firewall Rule Modification
+396,T1562.007,Firewall,Firewall Disable
+397,T1098.004,File,File Modification
+398,T1098.004,Process,Process Creation
+399,T1098.004,Command,Command Execution
+400,T1480.001,Command,Command Execution
+401,T1480.001,Process,Process Creation
+402,T1059.007,Process,Process Creation
+403,T1059.007,Module,Module Load
+404,T1059.007,Command,Command Execution
+405,T1059.007,Script,Script Execution
+406,T1578.004,Instance,Instance Stop
+407,T1578.004,Instance,Instance Start
+408,T1578.004,Instance,Instance Metadata
+409,T1578.004,Instance,Instance Modification
+410,T1578.003,Instance,Instance Deletion
+411,T1578.003,Instance,Instance Metadata
+412,T1578.001,Snapshot,Snapshot Creation
+413,T1578.001,Snapshot,Snapshot Metadata
+414,T1578.002,Instance,Instance Metadata
+415,T1578.002,Instance,Instance Creation
+416,T1127.001,Process,Process Creation
+417,T1127.001,Command,Command Execution
+418,T1027.005,Application Log,Application Log Content
+419,T1562.006,Command,Command Execution
+420,T1562.006,Sensor Health,Host Status
+421,T1562.006,Windows Registry,Windows Registry Key Modification
+422,T1573.002,Network Traffic,Network Traffic Content
+423,T1573.001,Network Traffic,Network Traffic Content
+424,T1573,Network Traffic,Network Traffic Content
+425,T1027.004,Command,Command Execution
+426,T1027.004,File,File Metadata
+427,T1027.004,File,File Creation
+428,T1027.004,Process,Process Creation
+429,T1574.004,File,File Creation
+430,T1574.004,Module,Module Load
+431,T1574.004,File,File Modification
+432,T1546.015,Module,Module Load
+433,T1546.015,Windows Registry,Windows Registry Key Modification
+434,T1546.015,Command,Command Execution
+435,T1546.015,Process,Process Creation
+436,T1071.004,Network Traffic,Network Traffic Flow
+437,T1071.004,Network Traffic,Network Traffic Content
+438,T1071.003,Network Traffic,Network Traffic Content
+439,T1071.003,Network Traffic,Network Traffic Flow
+440,T1071.002,Network Traffic,Network Traffic Flow
+441,T1071.002,Network Traffic,Network Traffic Content
+442,T1071.001,Network Traffic,Network Traffic Content
+443,T1071.001,Network Traffic,Network Traffic Flow
+444,T1572,Network Traffic,Network Traffic Content
+445,T1572,Network Traffic,Network Traffic Flow
+446,T1572,Network Traffic,Network Connection Creation
+447,T1048.003,Network Traffic,Network Connection Creation
+448,T1048.003,Network Traffic,Network Traffic Flow
+449,T1048.003,File,File Access
+450,T1048.003,Command,Command Execution
+451,T1048.003,Network Traffic,Network Traffic Content
+452,T1048.002,File,File Access
+453,T1048.002,Command,Command Execution
+454,T1048.002,Network Traffic,Network Traffic Flow
+455,T1048.002,Network Traffic,Network Traffic Content
+456,T1048.002,Network Traffic,Network Connection Creation
+457,T1048.001,Network Traffic,Network Traffic Flow
+458,T1048.001,File,File Access
+459,T1048.001,Network Traffic,Network Connection Creation
+460,T1048.001,Command,Command Execution
+461,T1048.001,Network Traffic,Network Traffic Content
+462,T1001.003,Network Traffic,Network Traffic Content
+463,T1001.002,Network Traffic,Network Traffic Content
+464,T1001.001,Network Traffic,Network Traffic Content
+465,T1132.002,Network Traffic,Network Traffic Content
+466,T1132.001,Network Traffic,Network Traffic Content
+467,T1090.004,Network Traffic,Network Traffic Content
+468,T1090.003,Network Traffic,Network Connection Creation
+469,T1090.003,Network Traffic,Network Traffic Flow
+470,T1090.003,Network Traffic,Network Traffic Content
+471,T1090.002,Network Traffic,Network Traffic Content
+472,T1090.002,Network Traffic,Network Connection Creation
+473,T1090.002,Network Traffic,Network Traffic Flow
+474,T1090.001,Network Traffic,Network Connection Creation
+475,T1090.001,Network Traffic,Network Traffic Flow
+476,T1090.001,Network Traffic,Network Traffic Content
+477,T1102.003,Network Traffic,Network Traffic Content
+478,T1102.003,Network Traffic,Network Connection Creation
+479,T1102.003,Network Traffic,Network Traffic Flow
+480,T1102.002,Network Traffic,Network Connection Creation
+481,T1102.002,Network Traffic,Network Traffic Content
+482,T1102.002,Network Traffic,Network Traffic Flow
+483,T1102.001,Network Traffic,Network Traffic Content
+484,T1102.001,Network Traffic,Network Traffic Flow
+485,T1571,Network Traffic,Network Connection Creation
+486,T1571,Network Traffic,Network Traffic Flow
+487,T1571,Network Traffic,Network Traffic Content
+488,T1074.002,File,File Access
+489,T1074.002,File,File Creation
+490,T1074.002,Command,Command Execution
+491,T1074.001,Windows Registry,Windows Registry Key Modification
+492,T1074.001,Command,Command Execution
+493,T1074.001,File,File Access
+494,T1074.001,File,File Creation
+495,T1078.004,User Account,User Account Authentication
+496,T1078.004,Logon Session,Logon Session Creation
+497,T1078.004,Logon Session,Logon Session Metadata
+498,T1564.004,File,File Metadata
+499,T1564.004,Command,Command Execution
+500,T1564.004,Process,OS API Execution
+501,T1564.004,File,File Modification
+502,T1564.003,File,File Modification
+503,T1564.003,Command,Command Execution
+504,T1564.003,Script,Script Execution
+505,T1564.003,Process,Process Creation
+506,T1078.003,Logon Session,Logon Session Metadata
+507,T1078.003,Logon Session,Logon Session Creation
+508,T1078.003,User Account,User Account Authentication
+509,T1078.002,User Account,User Account Authentication
+510,T1078.002,Logon Session,Logon Session Metadata
+511,T1078.002,Logon Session,Logon Session Creation
+512,T1078.001,Logon Session,Logon Session Creation
+513,T1078.001,User Account,User Account Authentication
+514,T1564.002,File,File Modification
+515,T1564.002,User Account,User Account Creation
+516,T1564.002,Process,Process Creation
+517,T1564.002,Windows Registry,Windows Registry Key Modification
+518,T1564.002,User Account,User Account Metadata
+519,T1564.002,Command,Command Execution
+520,T1574.006,Command,Command Execution
+521,T1574.006,Process,Process Creation
+522,T1574.006,File,File Creation
+523,T1574.006,File,File Modification
+524,T1574.006,Module,Module Load
+525,T1574.002,Module,Module Load
+526,T1574.002,Process,Process Creation
+527,T1574.002,File,File Modification
+528,T1574.002,File,File Creation
+529,T1574.001,File,File Modification
+530,T1574.001,Module,Module Load
+531,T1574.001,File,File Creation
+532,T1574.008,File,File Creation
+533,T1574.008,Process,Process Creation
+534,T1574.008,File,File Modification
+535,T1574.007,Windows Registry,Windows Registry Key Modification
+536,T1574.007,File,File Modification
+537,T1574.007,Process,Process Creation
+538,T1574.007,File,File Creation
+539,T1574.009,File,File Modification
+540,T1574.009,Process,Process Creation
+541,T1574.009,File,File Creation
+542,T1574.011,Command,Command Execution
+543,T1574.011,Process,Process Creation
+544,T1574.011,Windows Registry,Windows Registry Key Modification
+545,T1574.011,Service,Service Modification
+546,T1574.005,File,File Creation
+547,T1574.005,Process,Process Creation
+548,T1574.005,Service,Service Metadata
+549,T1574.005,File,File Modification
+550,T1574.005,Module,Module Load
+551,T1574.010,File,File Modification
+552,T1574.010,Service,Service Metadata
+553,T1574.010,File,File Creation
+554,T1574.010,Process,Process Creation
+555,T1574,File,File Creation
+556,T1574,Command,Command Execution
+557,T1574,File,File Modification
+558,T1574,Service,Service Metadata
+559,T1574,Process,Process Creation
+560,T1574,Windows Registry,Windows Registry Key Modification
+561,T1574,Module,Module Load
+562,T1069.001,Command,Command Execution
+563,T1069.001,Process,OS API Execution
+564,T1069.001,Process,Process Creation
+565,T1069.001,Group,Group Enumeration
+566,T1069.001,Group,Group Enumeration
+567,T1570,Network Share,Network Share Access
+568,T1570,Process,Process Creation
+569,T1570,Command,Command Execution
+570,T1570,Network Traffic,Network Traffic Flow
+571,T1570,Network Traffic,Network Traffic Content
+572,T1570,Named Pipe,Named Pipe Metadata
+573,T1570,File,File Metadata
+574,T1570,File,File Creation
+575,T1568.003,Network Traffic,Network Traffic Content
+576,T1204.002,File,File Creation
+577,T1204.002,Process,Process Creation
+578,T1204.001,Network Traffic,Network Traffic Content
+579,T1204.001,File,File Creation
+580,T1204.001,Network Traffic,Network Connection Creation
+581,T1195.003,Sensor Health,Host Status
+582,T1195.002,File,File Metadata
+583,T1195.001,File,File Metadata
+584,T1568.001,Network Traffic,Network Connection Creation
+585,T1568.001,Network Traffic,Network Traffic Flow
+586,T1052.001,Process,Process Creation
+587,T1052.001,Command,Command Execution
+588,T1052.001,Drive,Drive Creation
+589,T1052.001,File,File Access
+590,T1569.002,Process,Process Creation
+591,T1569.002,Windows Registry,Windows Registry Key Modification
+592,T1569.002,Command,Command Execution
+593,T1569.002,Service,Service Creation
+594,T1569.001,Command,Command Execution
+595,T1569.001,Service,Service Creation
+596,T1569.001,Process,Process Creation
+597,T1569.001,File,File Modification
+598,T1569,Process,Process Creation
+599,T1569,Command,Command Execution
+600,T1569,Service,Service Creation
+601,T1569,File,File Modification
+602,T1569,Windows Registry,Windows Registry Key Modification
+603,T1568.002,Network Traffic,Network Traffic Flow
+604,T1568.002,Network Traffic,Network Connection Creation
+605,T1568,Network Traffic,Network Traffic Content
+606,T1568,Network Traffic,Network Traffic Flow
+607,T1568,Network Traffic,Network Connection Creation
+608,T1011.001,File,File Access
+609,T1011.001,Network Traffic,Network Connection Creation
+610,T1011.001,Network Traffic,Network Traffic Content
+611,T1011.001,Network Traffic,Network Traffic Flow
+612,T1011.001,Command,Command Execution
+613,T1567.002,Command,Command Execution
+614,T1567.002,Network Traffic,Network Traffic Content
+615,T1567.002,Network Traffic,Network Traffic Flow
+616,T1567.002,File,File Access
+617,T1567.002,Network Traffic,Network Connection Creation
+618,T1567.001,Network Traffic,Network Traffic Flow
+619,T1567.001,File,File Access
+620,T1567.001,Command,Command Execution
+621,T1567.001,Network Traffic,Network Traffic Content
+622,T1059.006,Command,Command Execution
+623,T1059.006,Process,Process Creation
+624,T1059.005,Command,Command Execution
+625,T1059.005,Process,Process Creation
+626,T1059.005,Module,Module Load
+627,T1059.005,Script,Script Execution
+628,T1059.004,Command,Command Execution
+629,T1059.004,Process,Process Creation
+630,T1059.003,Command,Command Execution
+631,T1059.003,Process,Process Creation
+632,T1059.002,Process,OS API Execution
+633,T1059.002,Process,Process Creation
+634,T1059.002,Command,Command Execution
+635,T1059.001,Module,Module Load
+636,T1059.001,Process,Process Metadata
+637,T1059.001,Process,Process Creation
+638,T1059.001,Script,Script Execution
+639,T1059.001,Command,Command Execution
+640,T1567,Command,Command Execution
+641,T1567,File,File Access
+642,T1567,Network Traffic,Network Traffic Content
+643,T1567,Network Traffic,Network Traffic Flow
+644,T1567,Network Traffic,Network Connection Creation
+645,T1497.003,Command,Command Execution
+646,T1497.003,Process,Process Creation
+647,T1497.003,Process,OS API Execution
+648,T1497.002,Process,Process Creation
+649,T1497.002,Command,Command Execution
+650,T1497.002,Process,OS API Execution
+651,T1497.001,Process,Process Creation
+652,T1497.001,Process,OS API Execution
+653,T1497.001,Command,Command Execution
+654,T1498.002,Sensor Health,Host Status
+655,T1498.002,Network Traffic,Network Traffic Flow
+656,T1498.001,Sensor Health,Host Status
+657,T1498.001,Network Traffic,Network Traffic Flow
+658,T1566.003,Network Traffic,Network Traffic Flow
+659,T1566.003,Network Traffic,Network Traffic Content
+660,T1566.003,Application Log,Application Log Content
+661,T1566.002,Network Traffic,Network Traffic Content
+662,T1566.002,Network Traffic,Network Traffic Flow
+663,T1566.002,Application Log,Application Log Content
+664,T1566.002,Network Traffic,Network Connection Creation
+665,T1566.001,Network Traffic,Network Traffic Content
+666,T1566.001,Network Traffic,Network Traffic Flow
+667,T1566.001,Application Log,Application Log Content
+668,T1566.001,File,File Creation
+669,T1566,Network Traffic,Network Traffic Content
+670,T1566,Network Traffic,Network Traffic Flow
+671,T1566,Application Log,Application Log Content
+672,T1566,File,File Creation
+673,T1565.003,File,File Metadata
+674,T1565.003,File,File Deletion
+675,T1565.003,File,File Modification
+676,T1565.003,File,File Creation
+677,T1565.003,Process,OS API Execution
+678,T1565.002,Network Traffic,Network Traffic Flow
+679,T1565.002,Process,OS API Execution
+680,T1565.002,Network Traffic,Network Traffic Content
+681,T1565.001,File,File Modification
+682,T1565.001,File,File Deletion
+683,T1565.001,File,File Creation
+684,T1565,File,File Metadata
+685,T1565,Network Traffic,Network Traffic Flow
+686,T1565,Process,OS API Execution
+687,T1565,Network Traffic,Network Traffic Content
+688,T1565,File,File Deletion
+689,T1565,File,File Modification
+690,T1565,File,File Creation
+691,T1564.001,File,File Creation
+692,T1564.001,Process,Process Creation
+693,T1564.001,File,File Metadata
+694,T1564.001,Command,Command Execution
+695,T1564,User Account,User Account Creation
+696,T1564,Process,OS API Execution
+697,T1564,Windows Registry,Windows Registry Key Modification
+698,T1564,Firmware,Firmware Modification
+699,T1564,Service,Service Creation
+700,T1564,File,File Modification
+701,T1564,User Account,User Account Metadata
+702,T1564,Process,Process Creation
+703,T1564,Application Log,Application Log Content
+704,T1564,Command,Command Execution
+705,T1564,File,File Metadata
+706,T1564,File,File Creation
+707,T1564,Script,Script Execution
+708,T1563.002,Logon Session,Logon Session Creation
+709,T1563.002,Command,Command Execution
+710,T1563.002,Process,Process Creation
+711,T1563.002,Network Traffic,Network Traffic Flow
+712,T1563.002,Network Traffic,Network Traffic Content
+713,T1563.001,Command,Command Execution
+714,T1563.001,Logon Session,Logon Session Creation
+715,T1563.001,Network Traffic,Network Traffic Content
+716,T1563.001,Network Traffic,Network Traffic Flow
+717,T1563.001,Process,Process Creation
+718,T1563,Logon Session,Logon Session Creation
+719,T1563,Process,Process Creation
+720,T1563,Network Traffic,Network Traffic Content
+721,T1563,Command,Command Execution
+722,T1563,Network Traffic,Network Traffic Flow
+723,T1518.001,Firewall,Firewall Metadata
+724,T1518.001,Process,Process Creation
+725,T1518.001,Command,Command Execution
+726,T1518.001,Process,OS API Execution
+727,T1518.001,Firewall,Firewall Enumeration
+728,T1069.003,Command,Command Execution
+729,T1069.003,Application Log,Application Log Content
+730,T1069.003,Group,Group Metadata
+731,T1069.003,Process,Process Creation
+732,T1069.003,Group,Group Enumeration
+733,T1069.002,Process,Process Creation
+734,T1069.002,Command,Command Execution
+735,T1069.002,Group,Group Enumeration
+736,T1069.002,Process,OS API Execution
+737,T1087.004,User Account,User Account Metadata
+738,T1087.004,Command,Command Execution
+739,T1087.003,Command,Command Execution
+740,T1087.003,User Account,User Account Metadata
+741,T1087.003,Process,Process Creation
+742,T1087.002,Group,Group Enumeration
+743,T1087.002,Command,Command Execution
+744,T1087.002,Group,Group Enumeration
+745,T1087.002,Process,OS API Execution
+746,T1087.002,Network Traffic,Network Traffic Content
+747,T1087.002,Process,Process Creation
+748,T1087.001,Group,Group Enumeration
+749,T1087.001,Command,Command Execution
+750,T1087.001,File,File Access
+751,T1087.001,Group,Group Enumeration
+752,T1087.001,Process,OS API Execution
+753,T1087.001,Process,Process Creation
+754,T1553.004,Process,Process Creation
+755,T1553.004,Windows Registry,Windows Registry Key Modification
+756,T1553.004,Windows Registry,Windows Registry Key Creation
+757,T1553.004,Command,Command Execution
+758,T1562.004,Windows Registry,Windows Registry Key Modification
+759,T1562.004,Command,Command Execution
+760,T1562.004,Firewall,Firewall Disable
+761,T1562.004,Firewall,Firewall Rule Modification
+762,T1562.003,Sensor Health,Host Status
+763,T1562.003,User Account,User Account Metadata
+764,T1562.003,Command,Command Execution
+765,T1562.002,Application Log,Application Log Content
+766,T1562.002,Process,Process Creation
+767,T1562.002,Windows Registry,Windows Registry Key Creation
+768,T1562.002,Script,Script Execution
+769,T1562.002,Sensor Health,Host Status
+770,T1562.002,Command,Command Execution
+771,T1562.001,Process,Process Termination
+772,T1562.001,Sensor Health,Host Status
+773,T1562.001,Windows Registry,Windows Registry Key Modification
+774,T1562.001,Driver,Driver Load
+775,T1562.001,Windows Registry,Windows Registry Key Deletion
+776,T1562.001,Service,Service Metadata
+777,T1562.001,Command,Command Execution
+778,T1562,Firewall,Firewall Disable
+779,T1562,Driver,Driver Load
+780,T1562,Process,Process Creation
+781,T1562,Script,Script Execution
+782,T1562,Cloud Service,Cloud Service Disable
+783,T1562,Windows Registry,Windows Registry Key Deletion
+784,T1562,Sensor Health,Host Status
+785,T1562,Windows Registry,Windows Registry Key Modification
+786,T1562,Command,Command Execution
+787,T1562,Cloud Service,Cloud Service Modification
+788,T1562,Service,Service Metadata
+789,T1562,Process,Process Termination
+790,T1562,Firewall,Firewall Rule Modification
+791,T1003.004,Windows Registry,Windows Registry Key Access
+792,T1003.004,Command,Command Execution
+793,T1003.005,Command,Command Execution
+794,T1561.002,Driver,Driver Load
+795,T1561.002,Process,Process Creation
+796,T1561.002,Command,Command Execution
+797,T1561.002,Drive,Drive Modification
+798,T1561.002,Drive,Drive Access
+799,T1561.001,Process,Process Creation
+800,T1561.001,Command,Command Execution
+801,T1561.001,Driver,Driver Load
+802,T1561.001,Drive,Drive Modification
+803,T1561.001,Drive,Drive Access
+804,T1561,Process,Process Creation
+805,T1561,Driver,Driver Load
+806,T1561,Drive,Drive Modification
+807,T1561,Command,Command Execution
+808,T1561,Drive,Drive Access
+809,T1560.003,File,File Creation
+810,T1560.003,Script,Script Execution
+811,T1560.002,File,File Creation
+812,T1560.002,Script,Script Execution
+813,T1560.001,Process,Process Creation
+814,T1560.001,File,File Creation
+815,T1560.001,Command,Command Execution
+816,T1560,Script,Script Execution
+817,T1560,Process,Process Creation
+818,T1560,Command,Command Execution
+819,T1560,File,File Creation
+820,T1499.004,Sensor Health,Host Status
+821,T1499.004,Application Log,Application Log Content
+822,T1499.004,Network Traffic,Network Traffic Flow
+823,T1499.004,Network Traffic,Network Traffic Content
+824,T1499.003,Network Traffic,Network Traffic Content
+825,T1499.003,Sensor Health,Host Status
+826,T1499.003,Network Traffic,Network Traffic Flow
+827,T1499.003,Application Log,Application Log Content
+828,T1499.002,Application Log,Application Log Content
+829,T1499.002,Sensor Health,Host Status
+830,T1499.002,Network Traffic,Network Traffic Flow
+831,T1499.002,Network Traffic,Network Traffic Content
+832,T1499.001,Network Traffic,Network Traffic Flow
+833,T1499.001,Sensor Health,Host Status
+834,T1499.001,Network Traffic,Network Traffic Content
+835,T1491.002,File,File Modification
+836,T1491.002,Application Log,Application Log Content
+837,T1491.002,Network Traffic,Network Traffic Content
+838,T1491.002,File,File Creation
+839,T1491.001,File,File Creation
+840,T1491.001,Network Traffic,Network Traffic Content
+841,T1491.001,File,File Modification
+842,T1491.001,Application Log,Application Log Content
+843,T1114.003,Application Log,Application Log Content
+844,T1114.002,Logon Session,Logon Session Creation
+845,T1114.002,Network Traffic,Network Connection Creation
+846,T1114.002,Command,Command Execution
+847,T1114.001,Command,Command Execution
+848,T1114.001,File,File Access
+849,T1134.005,Process,OS API Execution
+850,T1134.005,Active Directory,Active Directory Object Modification
+851,T1134.005,User Account,User Account Metadata
+852,T1134.004,Process,Process Creation
+853,T1134.004,Process,OS API Execution
+854,T1134.004,Process,Process Metadata
+855,T1134.003,Command,Command Execution
+856,T1134.003,Process,OS API Execution
+857,T1134.002,Command,Command Execution
+858,T1134.002,Process,OS API Execution
+859,T1134.001,Process,OS API Execution
+860,T1134.001,Command,Command Execution
+861,T1213.002,Logon Session,Logon Session Creation
+862,T1213.002,Application Log,Application Log Content
+863,T1213.001,Logon Session,Logon Session Creation
+864,T1213.001,Application Log,Application Log Content
+865,T1555.003,Command,Command Execution
+866,T1555.003,Process,Process Access
+867,T1555.003,File,File Access
+868,T1555.003,Process,OS API Execution
+869,T1555.002,Process,Process Access
+870,T1555.002,Command,Command Execution
+871,T1555.001,Process,Process Creation
+872,T1555.001,Command,Command Execution
+873,T1555.001,File,File Access
+874,T1555.001,Process,OS API Execution
+875,T1559.002,Script,Script Execution
+876,T1559.002,Process,Process Creation
+877,T1559.002,Module,Module Load
+878,T1559.001,Module,Module Load
+879,T1559.001,Process,Process Creation
+880,T1559.001,Script,Script Execution
+881,T1559,Process,Process Access
+882,T1559,Process,Process Creation
+883,T1559,Module,Module Load
+884,T1559,Script,Script Execution
+885,T1558.002,Logon Session,Logon Session Metadata
+886,T1558.001,Logon Session,Logon Session Metadata
+887,T1558.001,Active Directory,Active Directory Credential Request
+888,T1558,Logon Session,Logon Session Metadata
+889,T1558,Command,Command Execution
+890,T1558,File,File Access
+891,T1558,Active Directory,Active Directory Credential Request
+892,T1557.001,Service,Service Creation
+893,T1557.001,Windows Registry,Windows Registry Key Modification
+894,T1557.001,Network Traffic,Network Traffic Flow
+895,T1557.001,Network Traffic,Network Traffic Content
+896,T1557,Windows Registry,Windows Registry Key Modification
+897,T1557,Application Log,Application Log Content
+898,T1557,Network Traffic,Network Traffic Flow
+899,T1557,Service,Service Creation
+900,T1557,Network Traffic,Network Traffic Content
+901,T1556.002,Windows Registry,Windows Registry Key Modification
+902,T1556.002,File,File Creation
+903,T1556.002,Module,Module Load
+904,T1556.001,File,File Modification
+905,T1556.001,Process,Process Access
+906,T1556.001,Logon Session,Logon Session Creation
+907,T1556.001,Process,OS API Execution
+908,T1556,File,File Creation
+909,T1556,Logon Session,Logon Session Creation
+910,T1556,Module,Module Load
+911,T1556,Active Directory,Active Directory Object Modification
+912,T1556,Process,Process Access
+913,T1556,Process,OS API Execution
+914,T1556,File,File Modification
+915,T1556,Application Log,Application Log Content
+916,T1556,User Account,User Account Authentication
+917,T1556,User Account,User Account Modification
+918,T1556,Windows Registry,Windows Registry Key Modification
+919,T1056.004,Process,Process Metadata
+920,T1056.004,Process,OS API Execution
+921,T1056.003,File,File Modification
+922,T1056.002,Script,Script Execution
+923,T1056.002,Process,Process Creation
+924,T1056.002,Command,Command Execution
+925,T1056.001,Windows Registry,Windows Registry Key Modification
+926,T1056.001,Driver,Driver Load
+927,T1056.001,Process,OS API Execution
+928,T1555,Command,Command Execution
+929,T1555,Process,OS API Execution
+930,T1555,Process,Process Access
+931,T1555,Process,Process Creation
+932,T1555,File,File Access
+933,T1552.005,User Account,User Account Authentication
+934,T1003.008,File,File Access
+935,T1003.008,Command,Command Execution
+936,T1003.007,Command,Command Execution
+937,T1003.007,File,File Access
+938,T1003.006,Network Traffic,Network Traffic Flow
+939,T1003.006,Active Directory,Active Directory Object Access
+940,T1003.006,Network Traffic,Network Traffic Content
+941,T1558.003,Active Directory,Active Directory Credential Request
+942,T1552.006,Command,Command Execution
+943,T1552.006,File,File Access
+944,T1003.003,Command,Command Execution
+945,T1003.003,File,File Access
+946,T1003.002,File,File Access
+947,T1003.002,Command,Command Execution
+948,T1003.002,Windows Registry,Windows Registry Key Access
+949,T1003.001,Process,OS API Execution
+950,T1003.001,Process,Process Creation
+951,T1003.001,Command,Command Execution
+952,T1003.001,Process,Process Access
+953,T1110.004,User Account,User Account Authentication
+954,T1110.004,Application Log,Application Log Content
+955,T1110.003,User Account,User Account Authentication
+956,T1110.003,Application Log,Application Log Content
+957,T1110.002,Application Log,Application Log Content
+958,T1110.002,User Account,User Account Authentication
+959,T1110.001,User Account,User Account Authentication
+960,T1110.001,Application Log,Application Log Content
+961,T1021.006,Process,Process Creation
+962,T1021.006,Service,Service Metadata
+963,T1021.006,Logon Session,Logon Session Creation
+964,T1021.006,Command,Command Execution
+965,T1021.006,Network Traffic,Network Connection Creation
+966,T1021.005,Logon Session,Logon Session Creation
+967,T1021.005,Network Traffic,Network Connection Creation
+968,T1021.005,Process,Process Creation
+969,T1021.004,Process,Process Creation
+970,T1021.004,Logon Session,Logon Session Creation
+971,T1021.004,Network Traffic,Network Connection Creation
+972,T1021.003,Module,Module Load
+973,T1021.003,Network Traffic,Network Connection Creation
+974,T1021.003,Process,Process Creation
+975,T1021.002,Network Traffic,Network Traffic Flow
+976,T1021.002,Network Share,Network Share Access
+977,T1021.002,Logon Session,Logon Session Creation
+978,T1021.002,Command,Command Execution
+979,T1021.002,Network Traffic,Network Connection Creation
+980,T1021.001,Process,Process Creation
+981,T1021.001,Network Traffic,Network Traffic Flow
+982,T1021.001,Network Traffic,Network Connection Creation
+983,T1021.001,Logon Session,Logon Session Creation
+984,T1554,File,File Modification
+985,T1554,File,File Creation
+986,T1554,File,File Deletion
+987,T1554,File,File Metadata
+988,T1036.006,File,File Metadata
+989,T1036.005,Image,Image Metadata
+990,T1036.005,File,File Metadata
+991,T1036.005,Process,Process Metadata
+992,T1036.004,Service,Service Creation
+993,T1036.004,Command,Command Execution
+994,T1036.004,Service,Service Metadata
+995,T1036.004,Scheduled Job,Scheduled Job Modification
+996,T1036.004,Scheduled Job,Scheduled Job Metadata
+997,T1036.003,File,File Modification
+998,T1036.003,Process,Process Metadata
+999,T1036.003,Command,Command Execution
+1000,T1036.003,File,File Metadata
+1001,T1036.002,File,File Metadata
+1002,T1036.001,File,File Metadata
+1003,T1553.003,Windows Registry,Windows Registry Key Modification
+1004,T1553.003,Module,Module Load
+1005,T1553.003,File,File Modification
+1006,T1553.002,File,File Metadata
+1007,T1553.001,File,File Metadata
+1008,T1553.001,Process,Process Creation
+1009,T1553.001,File,File Modification
+1010,T1553.001,Command,Command Execution
+1011,T1553,Command,Command Execution
+1012,T1553,Windows Registry,Windows Registry Key Creation
+1013,T1553,Process,Process Creation
+1014,T1553,File,File Modification
+1015,T1553,File,File Metadata
+1016,T1553,Module,Module Load
+1017,T1553,Windows Registry,Windows Registry Key Modification
+1018,T1027.003,File,File Metadata
+1019,T1027.002,File,File Metadata
+1020,T1027.001,File,File Metadata
+1021,T1222.002,Command,Command Execution
+1022,T1222.002,File,File Metadata
+1023,T1222.002,Process,Process Creation
+1024,T1222.001,Command,Command Execution
+1025,T1222.001,Process,Process Creation
+1026,T1222.001,File,File Metadata
+1027,T1222.001,Active Directory,Active Directory Object Modification
+1028,T1552.004,Command,Command Execution
+1029,T1552.004,File,File Access
+1030,T1552.003,File,File Access
+1031,T1552.003,Command,Command Execution
+1032,T1552.002,Process,Process Creation
+1033,T1552.002,Windows Registry,Windows Registry Key Access
+1034,T1552.002,Command,Command Execution
+1035,T1552.001,File,File Access
+1036,T1552.001,Command,Command Execution
+1037,T1552,Process,Process Creation
+1038,T1552,File,File Access
+1039,T1552,Windows Registry,Windows Registry Key Access
+1040,T1552,User Account,User Account Authentication
+1041,T1552,Command,Command Execution
+1042,T1216.001,Script,Script Execution
+1043,T1216.001,Command,Command Execution
+1044,T1216.001,Process,Process Creation
+1045,T1070.006,File,File Metadata
+1046,T1070.006,File,File Modification
+1047,T1070.005,Command,Command Execution
+1048,T1070.005,Process,Process Creation
+1049,T1070.005,User Account,User Account Authentication
+1050,T1070.005,Network Traffic,Network Traffic Content
+1051,T1070.004,Command,Command Execution
+1052,T1070.004,File,File Deletion
+1053,T1070.003,User Account,User Account Authentication
+1054,T1070.003,File,File Deletion
+1055,T1070.003,Command,Command Execution
+1056,T1070.003,User Account,User Account Metadata
+1057,T1070.003,File,File Modification
+1058,T1550.004,Web Credential,Web Credential Usage
+1059,T1550.004,Application Log,Application Log Content
+1060,T1550.001,Web Credential,Web Credential Usage
+1061,T1550.001,Application Log,Application Log Content
+1062,T1550.003,Active Directory,Active Directory Credential Request
+1063,T1550.003,User Account,User Account Authentication
+1064,T1550.003,Logon Session,Logon Session Creation
+1065,T1550.002,Logon Session,Logon Session Creation
+1066,T1550.002,User Account,User Account Authentication
+1067,T1550.002,Active Directory,Active Directory Credential Request
+1068,T1550,Application Log,Application Log Content
+1069,T1550,Logon Session,Logon Session Creation
+1070,T1550,Web Credential,Web Credential Usage
+1071,T1550,User Account,User Account Authentication
+1072,T1550,Active Directory,Active Directory Credential Request
+1073,T1548.004,Process,Process Creation
+1074,T1548.004,Process,OS API Execution
+1075,T1548.003,File,File Modification
+1076,T1548.003,Command,Command Execution
+1077,T1548.003,Process,Process Metadata
+1078,T1548.003,Process,Process Creation
+1079,T1548.002,Process,Process Metadata
+1080,T1548.002,Windows Registry,Windows Registry Key Modification
+1081,T1548.002,Command,Command Execution
+1082,T1548.002,Process,Process Creation
+1083,T1548.001,File,File Metadata
+1084,T1548.001,File,File Modification
+1085,T1548.001,Command,Command Execution
+1086,T1548,Process,Process Metadata
+1087,T1548,Process,Process Creation
+1088,T1548,Process,OS API Execution
+1089,T1548,File,File Metadata
+1090,T1548,File,File Modification
+1091,T1548,Windows Registry,Windows Registry Key Modification
+1092,T1548,Command,Command Execution
+1093,T1136.003,User Account,User Account Creation
+1094,T1070.002,Command,Command Execution
+1095,T1070.002,File,File Modification
+1096,T1070.002,File,File Deletion
+1097,T1070.001,Command,Command Execution
+1098,T1070.001,File,File Deletion
+1099,T1070.001,Process,OS API Execution
+1100,T1136.002,Process,Process Creation
+1101,T1136.002,User Account,User Account Creation
+1102,T1136.002,Command,Command Execution
+1103,T1136.001,Process,Process Creation
+1104,T1136.001,User Account,User Account Creation
+1105,T1136.001,Command,Command Execution
+1106,T1547.010,Windows Registry,Windows Registry Key Modification
+1107,T1547.010,Module,Module Load
+1108,T1547.010,Process,OS API Execution
+1109,T1547.010,File,File Creation
+1110,T1547.009,File,File Creation
+1111,T1547.009,Process,Process Creation
+1112,T1547.009,File,File Modification
+1113,T1547.008,File,File Creation
+1114,T1547.008,File,File Modification
+1115,T1547.008,Module,Module Load
+1116,T1547.008,Driver,Driver Load
+1117,T1547.007,Command,Command Execution
+1118,T1547.007,File,File Modification
+1119,T1547.006,Process,Process Creation
+1120,T1547.006,Kernel,Kernel Module Load
+1121,T1547.006,File,File Creation
+1122,T1547.006,File,File Modification
+1123,T1547.006,Command,Command Execution
+1124,T1547.005,Windows Registry,Windows Registry Key Modification
+1125,T1547.005,Module,Module Load
+1126,T1547.005,Command,Command Execution
+1127,T1547.004,Module,Module Load
+1128,T1547.004,Windows Registry,Windows Registry Key Modification
+1129,T1547.004,Command,Command Execution
+1130,T1547.003,Process,Process Creation
+1131,T1547.003,Command,Command Execution
+1132,T1547.003,Module,Module Load
+1133,T1547.003,Windows Registry,Windows Registry Key Modification
+1134,T1546.014,File,File Creation
+1135,T1546.014,Command,Command Execution
+1136,T1546.014,File,File Modification
+1137,T1546.014,Process,Process Creation
+1138,T1546.013,Command,Command Execution
+1139,T1546.013,Process,Process Creation
+1140,T1546.013,File,File Creation
+1141,T1546.013,File,File Modification
+1142,T1546.012,Windows Registry,Windows Registry Key Modification
+1143,T1546.012,Process,Process Creation
+1144,T1546.012,Command,Command Execution
+1145,T1218.008,Command,Command Execution
+1146,T1218.008,Module,Module Load
+1147,T1218.008,Process,Process Creation
+1148,T1546.011,Windows Registry,Windows Registry Key Modification
+1149,T1546.011,Process,Process Creation
+1150,T1546.011,Command,Command Execution
+1151,T1546.011,Module,Module Load
+1152,T1546.011,File,File Modification
+1153,T1547.002,Windows Registry,Windows Registry Key Modification
+1154,T1547.002,Module,Module Load
+1155,T1547.002,Command,Command Execution
+1156,T1546.010,Module,Module Load
+1157,T1546.010,Windows Registry,Windows Registry Key Modification
+1158,T1546.010,Command,Command Execution
+1159,T1546.010,Process,OS API Execution
+1160,T1546.010,Process,Process Creation
+1161,T1546.009,Module,Module Load
+1162,T1546.009,Windows Registry,Windows Registry Key Modification
+1163,T1546.009,Process,OS API Execution
+1164,T1546.009,Process,Process Creation
+1165,T1546.009,Command,Command Execution
+1166,T1218.007,Network Traffic,Network Connection Creation
+1167,T1218.007,Command,Command Execution
+1168,T1218.007,Module,Module Load
+1169,T1218.007,Process,Process Creation
+1170,T1546.008,Command,Command Execution
+1171,T1546.008,Process,Process Creation
+1172,T1546.008,File,File Modification
+1173,T1546.008,Windows Registry,Windows Registry Key Modification
+1174,T1546.008,File,File Creation
+1175,T1546.007,Module,Module Load
+1176,T1546.007,Process,Process Creation
+1177,T1546.007,Command,Command Execution
+1178,T1546.007,Windows Registry,Windows Registry Key Modification
+1179,T1546.006,File,File Metadata
+1180,T1546.006,File,File Modification
+1181,T1546.006,Process,Process Creation
+1182,T1546.006,Command,Command Execution
+1183,T1546.006,Module,Module Load
+1184,T1546.005,Process,Process Creation
+1185,T1546.005,File,File Creation
+1186,T1546.005,File,File Modification
+1187,T1546.005,Command,Command Execution
+1188,T1546.004,Command,Command Execution
+1189,T1546.004,File,File Creation
+1190,T1546.004,Process,Process Creation
+1191,T1546.004,File,File Modification
+1192,T1546.003,WMI,WMI Creation
+1193,T1546.003,Command,Command Execution
+1194,T1546.003,Process,Process Creation
+1195,T1546.002,File,File Creation
+1196,T1546.002,Process,Process Creation
+1197,T1546.002,Command,Command Execution
+1198,T1546.002,Windows Registry,Windows Registry Key Modification
+1199,T1546.002,File,File Modification
+1200,T1546.001,Process,Process Creation
+1201,T1546.001,Command,Command Execution
+1202,T1546.001,Windows Registry,Windows Registry Key Modification
+1203,T1547.001,Windows Registry,Windows Registry Key Creation
+1204,T1547.001,Process,Process Creation
+1205,T1547.001,Process,Process Creation
+1206,T1547.001,Command,Command Execution
+1207,T1547.001,Windows Registry,Windows Registry Key Modification
+1208,T1547.001,Process,Process Creation
+1209,T1547.001,File,File Modification
+1210,T1218.002,Process,OS API Execution
+1211,T1218.002,Command,Command Execution
+1212,T1218.002,Windows Registry,Windows Registry Key Modification
+1213,T1218.002,Process,Process Creation
+1214,T1218.002,Module,Module Load
+1215,T1218.002,File,File Creation
+1216,T1218.010,Network Traffic,Network Connection Creation
+1217,T1218.010,Process,Process Creation
+1218,T1218.010,Module,Module Load
+1219,T1218.010,Command,Command Execution
+1220,T1218.009,Command,Command Execution
+1221,T1218.009,Process,Process Creation
+1222,T1218.005,Network Traffic,Network Connection Creation
+1223,T1218.005,Command,Command Execution
+1224,T1218.005,Process,Process Creation
+1225,T1218.005,File,File Creation
+1226,T1218.004,Command,Command Execution
+1227,T1218.004,Process,Process Creation
+1228,T1218.001,Process,Process Creation
+1229,T1218.001,Command,Command Execution
+1230,T1218.001,File,File Creation
+1231,T1218.003,Command,Command Execution
+1232,T1218.003,Network Traffic,Network Connection Creation
+1233,T1218.003,Process,Process Creation
+1234,T1218.011,File,File Metadata
+1235,T1218.011,Module,Module Load
+1236,T1218.011,Command,Command Execution
+1237,T1218.011,Process,Process Creation
+1238,T1547,File,File Creation
+1239,T1547,Command,Command Execution
+1240,T1547,Process,OS API Execution
+1241,T1547,File,File Modification
+1242,T1547,Driver,Driver Load
+1243,T1547,Process,Process Creation
+1244,T1547,Windows Registry,Windows Registry Key Modification
+1245,T1547,Module,Module Load
+1246,T1547,Kernel,Kernel Module Load
+1247,T1547,Windows Registry,Windows Registry Key Creation
+1248,T1546,WMI,WMI Creation
+1249,T1546,Module,Module Load
+1250,T1546,Cloud Service,Cloud Service Modification
+1251,T1546,Command,Command Execution
+1252,T1546,File,File Modification
+1253,T1546,Windows Registry,Windows Registry Key Modification
+1254,T1546,Process,Process Creation
+1255,T1546,File,File Creation
+1256,T1546,File,File Metadata
+1257,T1098.003,User Account,User Account Modification
+1258,T1098.002,User Account,User Account Modification
+1259,T1098.002,Application Log,Application Log Content
+1260,T1098.002,Group,Group Modification
+1261,T1098.001,User Account,User Account Modification
+1262,T1098.001,Active Directory,Active Directory Object Modification
+1263,T1543.004,Service,Service Modification
+1264,T1543.004,Service,Service Creation
+1265,T1543.004,File,File Creation
+1266,T1543.004,Command,Command Execution
+1267,T1543.004,Process,Process Creation
+1268,T1543.004,File,File Modification
+1269,T1543.003,Process,Process Creation
+1270,T1543.003,Command,Command Execution
+1271,T1543.003,Process,OS API Execution
+1272,T1543.003,Service,Service Creation
+1273,T1543.003,Windows Registry,Windows Registry Key Modification
+1274,T1543.003,Windows Registry,Windows Registry Key Creation
+1275,T1543.003,Service,Service Modification
+1276,T1543.003,Driver,Driver Load
+1277,T1543.002,File,File Modification
+1278,T1543.002,Service,Service Modification
+1279,T1543.002,Command,Command Execution
+1280,T1543.002,Process,Process Creation
+1281,T1543.002,File,File Creation
+1282,T1543.002,Service,Service Creation
+1283,T1543.001,File,File Modification
+1284,T1543.001,File,File Creation
+1285,T1543.001,Service,Service Modification
+1286,T1543.001,Command,Command Execution
+1287,T1543.001,Service,Service Creation
+1288,T1037.005,File,File Modification
+1289,T1037.005,File,File Creation
+1290,T1037.005,Command,Command Execution
+1291,T1037.005,Process,Process Creation
+1292,T1037.004,Process,Process Creation
+1293,T1037.004,Command,Command Execution
+1294,T1037.004,File,File Creation
+1295,T1037.004,File,File Modification
+1296,T1055.012,Process,OS API Execution
+1297,T1055.012,Process,Process Modification
+1298,T1055.012,Process,Process Access
+1299,T1055.013,Process,OS API Execution
+1300,T1055.013,File,File Metadata
+1301,T1055.011,Process,OS API Execution
+1302,T1055.014,Module,Module Load
+1303,T1055.014,Process,OS API Execution
+1304,T1055.009,File,File Modification
+1305,T1055.008,Process,Process Access
+1306,T1055.008,Process,Process Modification
+1307,T1055.008,Process,OS API Execution
+1308,T1055.005,Process,Process Modification
+1309,T1055.005,Process,OS API Execution
+1310,T1055.005,Process,Process Access
+1311,T1055.004,Process,OS API Execution
+1312,T1055.004,Process,Process Modification
+1313,T1055.004,Process,Process Access
+1314,T1055.003,Process,Process Access
+1315,T1055.003,Process,OS API Execution
+1316,T1055.003,Process,Process Modification
+1317,T1055.002,Process,Process Modification
+1318,T1055.002,Process,OS API Execution
+1319,T1055.002,Process,Process Access
+1320,T1055.001,Process,Process Modification
+1321,T1055.001,Module,Module Load
+1322,T1055.001,Process,Process Metadata
+1323,T1055.001,Process,Process Access
+1324,T1055.001,Process,OS API Execution
+1325,T1037.003,Command,Command Execution
+1326,T1037.003,Active Directory,Active Directory Object Modification
+1327,T1037.003,File,File Modification
+1328,T1037.003,Process,Process Creation
+1329,T1037.003,File,File Creation
+1330,T1543,Command,Command Execution
+1331,T1543,Service,Service Modification
+1332,T1543,Process,OS API Execution
+1333,T1543,File,File Creation
+1334,T1543,Service,Service Creation
+1335,T1543,Windows Registry,Windows Registry Key Modification
+1336,T1543,File,File Modification
+1337,T1543,Windows Registry,Windows Registry Key Creation
+1338,T1543,Process,Process Creation
+1339,T1543,Driver,Driver Load
+1340,T1037.002,Process,Process Creation
+1341,T1037.002,Command,Command Execution
+1342,T1037.002,File,File Creation
+1343,T1037.002,File,File Modification
+1344,T1037.001,Process,Process Creation
+1345,T1037.001,Command,Command Execution
+1346,T1037.001,Windows Registry,Windows Registry Key Creation
+1347,T1542.003,Drive,Drive Modification
+1348,T1542.002,Driver,Driver Metadata
+1349,T1542.002,Process,OS API Execution
+1350,T1542.002,Firmware,Firmware Modification
+1351,T1542.001,Firmware,Firmware Modification
+1352,T1505.003,File,File Creation
+1353,T1505.003,Application Log,Application Log Content
+1354,T1505.003,Network Traffic,Network Traffic Flow
+1355,T1505.003,Process,Process Creation
+1356,T1505.003,File,File Modification
+1357,T1505.003,Network Traffic,Network Traffic Content
+1358,T1505.002,Application Log,Application Log Content
+1359,T1505.002,File,File Creation
+1360,T1505.001,Application Log,Application Log Content
+1361,T1053.003,Scheduled Job,Scheduled Job Creation
+1362,T1053.003,Process,Process Creation
+1363,T1053.003,Command,Command Execution
+1364,T1053.003,File,File Modification
+1365,T1053.005,Command,Command Execution
+1366,T1053.005,Process,Process Creation
+1367,T1053.005,File,File Modification
+1368,T1053.005,Scheduled Job,Scheduled Job Creation
+1369,T1053.005,Windows Registry,Windows Registry Key Creation
+1370,T1053.002,Scheduled Job,Scheduled Job Creation
+1371,T1053.002,Process,Process Creation
+1372,T1053.002,File,File Modification
+1373,T1053.002,Command,Command Execution
+1374,T1542,Drive,Drive Modification
+1375,T1542,Driver,Driver Metadata
+1376,T1542,Process,OS API Execution
+1377,T1542,Firmware,Firmware Modification
+1378,T1542,Command,Command Execution
+1379,T1542,Network Traffic,Network Connection Creation
+1380,T1137.001,Process,Process Creation
+1381,T1137.001,Windows Registry,Windows Registry Key Creation
+1382,T1137.001,Command,Command Execution
+1383,T1137.001,Windows Registry,Windows Registry Key Modification
+1384,T1137.001,File,File Creation
+1385,T1137.001,File,File Modification
+1386,T1137.004,Application Log,Application Log Content
+1387,T1137.004,Command,Command Execution
+1388,T1137.004,Process,Process Creation
+1389,T1137.003,Application Log,Application Log Content
+1390,T1137.003,Command,Command Execution
+1391,T1137.003,Process,Process Creation
+1392,T1137.005,Process,Process Creation
+1393,T1137.005,Application Log,Application Log Content
+1394,T1137.005,Command,Command Execution
+1395,T1137.006,Process,Process Creation
+1396,T1137.006,Windows Registry,Windows Registry Key Creation
+1397,T1137.006,Command,Command Execution
+1398,T1137.006,File,File Modification
+1399,T1137.006,Windows Registry,Windows Registry Key Modification
+1400,T1137.006,File,File Creation
+1401,T1137.002,File,File Modification
+1402,T1137.002,Windows Registry,Windows Registry Key Modification
+1403,T1137.002,Module,Module Load
+1404,T1137.002,Process,Process Creation
+1405,T1137.002,File,File Creation
+1406,T1137.002,Command,Command Execution
+1407,T1137.002,Windows Registry,Windows Registry Key Creation
+1408,T1531,User Account,User Account Deletion
+1409,T1531,Active Directory,Active Directory Object Modification
+1410,T1531,User Account,User Account Modification
+1411,T1539,Process,Process Access
+1412,T1539,File,File Access
+1413,T1529,Command,Command Execution
+1414,T1529,Sensor Health,Host Status
+1415,T1529,Process,Process Creation
+1416,T1518,Process,Process Creation
+1417,T1518,Firewall,Firewall Metadata
+1418,T1518,Firewall,Firewall Enumeration
+1419,T1518,Process,OS API Execution
+1420,T1518,Command,Command Execution
+1421,T1547.013,Command,Command Execution
+1422,T1547.013,File,File Creation
+1423,T1547.013,File,File Modification
+1424,T1547.013,Process,Process Creation
+1425,T1534,Network Traffic,Network Traffic Flow
+1426,T1534,Network Traffic,Network Traffic Content
+1427,T1534,Application Log,Application Log Content
+1428,T1528,User Account,User Account Modification
+1429,T1535,Instance,Instance Metadata
+1430,T1535,Instance,Instance Creation
+1431,T1525,Image,Image Metadata
+1432,T1525,Image,Image Modification
+1433,T1525,Image,Image Creation
+1434,T1538,Logon Session,Logon Session Creation
+1435,T1538,User Account,User Account Authentication
+1436,T1530,Cloud Storage,Cloud Storage Access
+1437,T1578,Instance,Instance Metadata
+1438,T1578,Instance,Instance Modification
+1439,T1578,Instance,Instance Stop
+1440,T1578,Volume,Volume Modification
+1441,T1578,Instance,Instance Start
+1442,T1578,Volume,Volume Metadata
+1443,T1578,Volume,Volume Deletion
+1444,T1578,Snapshot,Snapshot Modification
+1445,T1578,Instance,Instance Deletion
+1446,T1578,Snapshot,Snapshot Creation
+1447,T1578,Snapshot,Snapshot Metadata
+1448,T1578,Instance,Instance Creation
+1449,T1578,Snapshot,Snapshot Deletion
+1450,T1578,Volume,Volume Creation
+1451,T1537,Snapshot,Snapshot Creation
+1452,T1537,Snapshot,Snapshot Metadata
+1453,T1537,Cloud Storage,Cloud Storage Modification
+1454,T1537,Cloud Storage,Cloud Storage Metadata
+1455,T1537,Cloud Storage,Cloud Storage Creation
+1456,T1537,Network Traffic,Network Traffic Content
+1457,T1537,Snapshot,Snapshot Modification
+1458,T1526,Cloud Service,Cloud Service Metadata
+1459,T1526,Cloud Service,Cloud Service Enumeration
+1460,T1505,Network Traffic,Network Traffic Flow
+1461,T1505,File,File Creation
+1462,T1505,Application Log,Application Log Content
+1463,T1505,Process,Process Creation
+1464,T1505,Network Traffic,Network Traffic Content
+1465,T1505,File,File Modification
+1466,T1499,Network Traffic,Network Traffic Flow
+1467,T1499,Network Traffic,Network Traffic Content
+1468,T1499,Sensor Health,Host Status
+1469,T1499,Application Log,Application Log Content
+1470,T1497,Process,OS API Execution
+1471,T1497,Command,Command Execution
+1472,T1497,Process,Process Creation
+1473,T1498,Network Traffic,Network Traffic Flow
+1474,T1498,Sensor Health,Host Status
+1475,T1496,Command,Command Execution
+1476,T1496,Process,Process Creation
+1477,T1496,Network Traffic,Network Connection Creation
+1478,T1496,Network Traffic,Network Traffic Flow
+1479,T1496,Sensor Health,Host Status
+1480,T1496,File,File Creation
+1481,T1495,Firmware,Firmware Modification
+1482,T1491,Application Log,Application Log Content
+1483,T1491,Network Traffic,Network Traffic Content
+1484,T1491,File,File Modification
+1485,T1491,File,File Creation
+1486,T1490,File,File Deletion
+1487,T1490,Process,Process Creation
+1488,T1490,Command,Command Execution
+1489,T1490,Service,Service Metadata
+1490,T1490,Windows Registry,Windows Registry Key Modification
+1491,T1489,Service,Service Metadata
+1492,T1489,Windows Registry,Windows Registry Key Modification
+1493,T1489,Process,OS API Execution
+1494,T1489,Command,Command Execution
+1495,T1489,Process,Process Creation
+1496,T1489,Process,Process Termination
+1497,T1489,File,File Modification
+1498,T1486,Cloud Storage,Cloud Storage Modification
+1499,T1486,Process,Process Creation
+1500,T1486,Network Share,Network Share Access
+1501,T1486,File,File Creation
+1502,T1486,Command,Command Execution
+1503,T1486,Network Share,Network Share Access
+1504,T1486,Cloud Storage,Cloud Storage Metadata
+1505,T1486,File,File Modification
+1506,T1485,File,File Modification
+1507,T1485,Volume,Volume Deletion
+1508,T1485,Command,Command Execution
+1509,T1485,Image,Image Deletion
+1510,T1485,Instance,Instance Deletion
+1511,T1485,Process,Process Creation
+1512,T1485,Cloud Storage,Cloud Storage Deletion
+1513,T1485,Snapshot,Snapshot Deletion
+1514,T1485,File,File Deletion
+1515,T1484,Active Directory,Active Directory Object Creation
+1516,T1484,Active Directory,Active Directory Object Deletion
+1517,T1484,Command,Command Execution
+1518,T1484,Active Directory,Active Directory Object Modification
+1519,T1482,Network Traffic,Network Traffic Content
+1520,T1482,Process,OS API Execution
+1521,T1482,Script,Script Execution
+1522,T1482,Process,Process Creation
+1523,T1482,Command,Command Execution
+1524,T1480,Process,Process Creation
+1525,T1480,Command,Command Execution
+1526,T1222,Process,Process Creation
+1527,T1222,Command,Command Execution
+1528,T1222,Active Directory,Active Directory Object Modification
+1529,T1222,File,File Metadata
+1530,T1220,Module,Module Load
+1531,T1220,Process,Process Creation
+1532,T1221,Process,Process Creation
+1533,T1221,Network Traffic,Network Connection Creation
+1534,T1221,Network Traffic,Network Traffic Content
+1535,T1190,Application Log,Application Log Content
+1536,T1190,Network Traffic,Network Traffic Content
+1537,T1207,Active Directory,Active Directory Object Creation
+1538,T1207,Active Directory,Active Directory Object Modification
+1539,T1207,Network Traffic,Network Traffic Content
+1540,T1207,User Account,User Account Authentication
+1541,T1205,Network Traffic,Network Connection Creation
+1542,T1205,Network Traffic,Network Traffic Content
+1543,T1205,Process,Process Creation
+1544,T1205,Network Traffic,Network Traffic Flow
+1545,T1204,Network Traffic,Network Traffic Content
+1546,T1204,Process,Process Creation
+1547,T1204,Image,Image Creation
+1548,T1204,Instance,Instance Start
+1549,T1204,Application Log,Application Log Content
+1550,T1204,File,File Creation
+1551,T1204,Command,Command Execution
+1552,T1204,Container,Container Start
+1553,T1204,Network Traffic,Network Connection Creation
+1554,T1204,Container,Container Creation
+1555,T1204,Instance,Instance Creation
+1556,T1210,Application Log,Application Log Content
+1557,T1210,Network Traffic,Network Traffic Content
+1558,T1201,Command,Command Execution
+1559,T1201,Process,Process Creation
+1560,T1201,User Account,User Account Metadata
+1561,T1213,Application Log,Application Log Content
+1562,T1213,Logon Session,Logon Session Creation
+1563,T1200,Application Log,Application Log Content
+1564,T1200,Drive,Drive Creation
+1565,T1200,Network Traffic,Network Traffic Flow
+1566,T1216,Process,Process Creation
+1567,T1216,Script,Script Execution
+1568,T1216,Command,Command Execution
+1569,T1195,Sensor Health,Host Status
+1570,T1195,File,File Metadata
+1571,T1219,Network Traffic,Network Traffic Content
+1572,T1219,Process,Process Creation
+1573,T1219,Network Traffic,Network Connection Creation
+1574,T1219,Network Traffic,Network Traffic Flow
+1575,T1218,Process,OS API Execution
+1576,T1218,Network Traffic,Network Connection Creation
+1577,T1218,Windows Registry,Windows Registry Key Modification
+1578,T1218,Process,Process Creation
+1579,T1218,File,File Creation
+1580,T1218,Module,Module Load
+1581,T1218,Command,Command Execution
+1582,T1212,Process,Process Creation
+1583,T1212,Application Log,Application Log Content
+1584,T1212,User Account,User Account Authentication
+1585,T1189,Application Log,Application Log Content
+1586,T1189,Process,Process Creation
+1587,T1189,File,File Creation
+1588,T1189,Network Traffic,Network Connection Creation
+1589,T1189,Network Traffic,Network Traffic Content
+1590,T1211,Application Log,Application Log Content
+1591,T1211,Process,Process Creation
+1592,T1202,Process,Process Creation
+1593,T1202,Command,Command Execution
+1594,T1217,Command,Command Execution
+1595,T1217,File,File Access
+1596,T1217,Process,Process Creation
+1597,T1199,Network Traffic,Network Traffic Content
+1598,T1199,Logon Session,Logon Session Metadata
+1599,T1199,Application Log,Application Log Content
+1600,T1199,Logon Session,Logon Session Creation
+1601,T1203,Application Log,Application Log Content
+1602,T1203,Process,Process Creation
+1603,T1197,Network Traffic,Network Connection Creation
+1604,T1197,Service,Service Metadata
+1605,T1197,Command,Command Execution
+1606,T1197,Process,Process Creation
+1607,T1185,Process,Process Access
+1608,T1185,Process,Process Modification
+1609,T1185,Logon Session,Logon Session Creation
+1610,T1187,File,File Modification
+1611,T1187,Network Traffic,Network Traffic Content
+1612,T1187,File,File Creation
+1613,T1187,Network Traffic,Network Traffic Flow
+1614,T1187,File,File Access
+1615,T1176,File,File Creation
+1616,T1176,Network Traffic,Network Connection Creation
+1617,T1176,Command,Command Execution
+1618,T1176,Windows Registry,Windows Registry Key Creation
+1619,T1176,Process,Process Creation
+1620,T1135,Process,OS API Execution
+1621,T1135,Process,Process Creation
+1622,T1135,Command,Command Execution
+1623,T1137,Process,Process Creation
+1624,T1137,Windows Registry,Windows Registry Key Modification
+1625,T1137,Command,Command Execution
+1626,T1137,Application Log,Application Log Content
+1627,T1137,Windows Registry,Windows Registry Key Creation
+1628,T1137,File,File Modification
+1629,T1137,File,File Creation
+1630,T1137,Module,Module Load
+1631,T1136,Process,Process Creation
+1632,T1136,User Account,User Account Creation
+1633,T1136,Command,Command Execution
+1634,T1134,Active Directory,Active Directory Object Modification
+1635,T1134,Command,Command Execution
+1636,T1134,User Account,User Account Metadata
+1637,T1134,Process,OS API Execution
+1638,T1134,Process,Process Metadata
+1639,T1134,Process,Process Creation
+1640,T1140,Script,Script Execution
+1641,T1140,File,File Modification
+1642,T1140,Process,Process Creation
+1643,T1133,Application Log,Application Log Content
+1644,T1133,Network Traffic,Network Traffic Content
+1645,T1133,Network Traffic,Network Connection Creation
+1646,T1133,Logon Session,Logon Session Metadata
+1647,T1133,Network Traffic,Network Traffic Flow
+1648,T1132,Network Traffic,Network Traffic Content
+1649,T1129,Process,OS API Execution
+1650,T1129,Module,Module Load
+1651,T1127,Process,Process Creation
+1652,T1127,Command,Command Execution
+1653,T1125,Command,Command Execution
+1654,T1125,Process,OS API Execution
+1655,T1124,Process,Process Creation
+1656,T1124,Process,OS API Execution
+1657,T1124,Command,Command Execution
+1658,T1123,Command,Command Execution
+1659,T1123,Process,OS API Execution
+1660,T1120,Process,OS API Execution
+1661,T1120,Process,Process Creation
+1662,T1120,Command,Command Execution
+1663,T1119,Command,Command Execution
+1664,T1119,Script,Script Execution
+1665,T1119,File,File Access
+1666,T1115,Command,Command Execution
+1667,T1115,Process,OS API Execution
+1668,T1114,Logon Session,Logon Session Creation
+1669,T1114,Network Traffic,Network Connection Creation
+1670,T1114,File,File Access
+1671,T1114,Application Log,Application Log Content
+1672,T1114,Command,Command Execution
+1673,T1113,Command,Command Execution
+1674,T1113,Process,OS API Execution
+1675,T1112,Command,Command Execution
+1676,T1112,Windows Registry,Windows Registry Key Modification
+1677,T1112,Windows Registry,Windows Registry Key Deletion
+1678,T1112,Process,OS API Execution
+1679,T1112,Windows Registry,Windows Registry Key Creation
+1680,T1112,Process,Process Creation
+1681,T1111,Windows Registry,Windows Registry Key Modification
+1682,T1111,Driver,Driver Load
+1683,T1111,Process,OS API Execution
+1684,T1110,Command,Command Execution
+1685,T1110,Application Log,Application Log Content
+1686,T1110,User Account,User Account Authentication
+1687,T1106,Process,OS API Execution
+1688,T1106,Module,Module Load
+1689,T1105,Network Traffic,Network Traffic Content
+1690,T1105,File,File Creation
+1691,T1105,Network Traffic,Network Traffic Flow
+1692,T1105,Network Traffic,Network Connection Creation
+1693,T1104,Network Traffic,Network Traffic Flow
+1694,T1104,Network Traffic,Network Connection Creation
+1695,T1102,Network Traffic,Network Connection Creation
+1696,T1102,Network Traffic,Network Traffic Flow
+1697,T1102,Network Traffic,Network Traffic Content
+1698,T1098,File,File Modification
+1699,T1098,Command,Command Execution
+1700,T1098,Active Directory,Active Directory Object Modification
+1701,T1098,Group,Group Modification
+1702,T1098,User Account,User Account Modification
+1703,T1098,Process,Process Creation
+1704,T1095,Network Traffic,Network Traffic Flow
+1705,T1095,Network Traffic,Network Traffic Content
+1706,T1092,Drive,Drive Creation
+1707,T1092,Drive,Drive Access
+1708,T1091,Drive,Drive Creation
+1709,T1091,File,File Access
+1710,T1091,Process,Process Creation
+1711,T1091,File,File Creation
+1712,T1090,Network Traffic,Network Traffic Content
+1713,T1090,Network Traffic,Network Traffic Flow
+1714,T1090,Network Traffic,Network Connection Creation
+1715,T1087,Process,Process Creation
+1716,T1087,Command,Command Execution
+1717,T1087,User Account,User Account Metadata
+1718,T1087,File,File Access
+1719,T1083,Command,Command Execution
+1720,T1083,Process,OS API Execution
+1721,T1083,Process,Process Creation
+1722,T1082,Instance,Instance Metadata
+1723,T1082,Command,Command Execution
+1724,T1082,Process,OS API Execution
+1725,T1082,Process,Process Creation
+1726,T1080,File,File Creation
+1727,T1080,Process,Process Creation
+1728,T1080,Network Share,Network Share Access
+1729,T1080,File,File Modification
+1730,T1078,User Account,User Account Authentication
+1731,T1078,Logon Session,Logon Session Creation
+1732,T1078,Logon Session,Logon Session Metadata
+1733,T1074,Command,Command Execution
+1734,T1074,Windows Registry,Windows Registry Key Modification
+1735,T1074,File,File Access
+1736,T1074,File,File Creation
+1737,T1072,Application Log,Application Log Content
+1738,T1072,Process,Process Creation
+1739,T1071,Network Traffic,Network Traffic Content
+1740,T1071,Network Traffic,Network Traffic Flow
+1741,T1070,Process,Process Creation
+1742,T1070,Scheduled Job,Scheduled Job Modification
+1743,T1070,User Account,User Account Authentication
+1744,T1070,Windows Registry,Windows Registry Key Deletion
+1745,T1070,Network Traffic,Network Traffic Content
+1746,T1070,Process,OS API Execution
+1747,T1070,File,File Metadata
+1748,T1070,Firewall,Firewall Rule Modification
+1749,T1070,Command,Command Execution
+1750,T1070,Windows Registry,Windows Registry Key Modification
+1751,T1070,File,File Deletion
+1752,T1070,File,File Modification
+1753,T1069,Command,Command Execution
+1754,T1069,Application Log,Application Log Content
+1755,T1069,Process,Process Creation
+1756,T1069,Group,Group Enumeration
+1757,T1069,Group,Group Metadata
+1758,T1069,Pod,Pod Metadata
+1759,T1068,Process,Process Creation
+1760,T1068,Driver,Driver Load
+1761,T1059,Script,Script Execution
+1762,T1059,Process,Process Metadata
+1763,T1059,Command,Command Execution
+1764,T1059,Module,Module Load
+1765,T1059,Process,Process Creation
+1766,T1057,Process,Process Creation
+1767,T1057,Command,Command Execution
+1768,T1057,Process,OS API Execution
+1769,T1056,Windows Registry,Windows Registry Key Modification
+1770,T1056,Process,Process Metadata
+1771,T1056,Driver,Driver Load
+1772,T1056,File,File Modification
+1773,T1056,Process,Process Creation
+1774,T1056,Process,OS API Execution
+1775,T1055,Process,Process Access
+1776,T1055,Process,OS API Execution
+1777,T1055,Process,Process Metadata
+1778,T1055,Module,Module Load
+1779,T1055,File,File Metadata
+1780,T1055,Process,Process Modification
+1781,T1055,File,File Modification
+1782,T1053,Command,Command Execution
+1783,T1053,File,File Creation
+1784,T1053,File,File Modification
+1785,T1053,Process,Process Creation
+1786,T1053,Container,Container Creation
+1787,T1053,Scheduled Job,Scheduled Job Creation
+1788,T1052,File,File Access
+1789,T1052,Drive,Drive Creation
+1790,T1052,Command,Command Execution
+1791,T1052,Process,Process Creation
+1792,T1049,Process,Process Creation
+1793,T1049,Command,Command Execution
+1794,T1049,Process,OS API Execution
+1795,T1048,Network Traffic,Network Connection Creation
+1796,T1048,File,File Access
+1797,T1048,Network Traffic,Network Traffic Flow
+1798,T1048,Network Traffic,Network Traffic Content
+1799,T1048,Command,Command Execution
+1800,T1047,Command,Command Execution
+1801,T1047,Network Traffic,Network Connection Creation
+1802,T1047,Process,Process Creation
+1803,T1046,Command,Command Execution
+1804,T1046,Network Traffic,Network Traffic Flow
+1805,T1046,Cloud Service,Cloud Service Enumeration
+1806,T1041,File,File Access
+1807,T1041,Network Traffic,Network Connection Creation
+1808,T1041,Network Traffic,Network Traffic Flow
+1809,T1041,Network Traffic,Network Traffic Content
+1810,T1041,Command,Command Execution
+1811,T1040,Process,Process Creation
+1812,T1040,Command,Command Execution
+1813,T1039,File,File Access
+1814,T1039,Network Traffic,Network Traffic Content
+1815,T1039,Command,Command Execution
+1816,T1039,Network Traffic,Network Connection Creation
+1817,T1039,Network Traffic,Network Traffic Content
+1818,T1039,Network Share,Network Share Access
+1819,T1039,Network Traffic,Network Connection Creation
+1820,T1037,File,File Modification
+1821,T1037,Windows Registry,Windows Registry Key Creation
+1822,T1037,File,File Creation
+1823,T1037,Process,Process Creation
+1824,T1037,Active Directory,Active Directory Object Modification
+1825,T1037,Command,Command Execution
+1826,T1036,Process,Process Metadata
+1827,T1036,Image,Image Metadata
+1828,T1036,Command,Command Execution
+1829,T1036,File,File Modification
+1830,T1036,Service,Service Metadata
+1831,T1036,Scheduled Job,Scheduled Job Modification
+1832,T1036,Scheduled Job,Scheduled Job Metadata
+1833,T1036,Service,Service Creation
+1834,T1036,File,File Metadata
+1835,T1033,Active Directory,Active Directory Object Access
+1836,T1033,Process,OS API Execution
+1837,T1033,File,File Access
+1838,T1033,Network Traffic,Network Traffic Content
+1839,T1033,Process,Process Access
+1840,T1033,Windows Registry,Windows Registry Key Access
+1841,T1033,Network Traffic,Network Traffic Flow
+1842,T1033,Command,Command Execution
+1843,T1033,Process,Process Creation
+1844,T1030,Network Traffic,Network Connection Creation
+1845,T1030,Network Traffic,Network Traffic Flow
+1846,T1029,Network Traffic,Network Connection Creation
+1847,T1029,Network Traffic,Network Traffic Flow
+1848,T1027,Process,Process Creation
+1849,T1027,File,File Metadata
+1850,T1027,Command,Command Execution
+1851,T1027,Process,OS API Execution
+1852,T1027,File,File Creation
+1853,T1027,Module,Module Load
+1854,T1025,File,File Access
+1855,T1025,Command,Command Execution
+1856,T1021,Command,Command Execution
+1857,T1021,Network Traffic,Network Traffic Flow
+1858,T1021,Network Share,Network Share Access
+1859,T1021,Logon Session,Logon Session Creation
+1860,T1021,Process,Process Creation
+1861,T1021,Module,Module Load
+1862,T1021,Network Traffic,Network Connection Creation
+1863,T1020,Command,Command Execution
+1864,T1020,File,File Access
+1865,T1020,Script,Script Execution
+1866,T1020,Network Traffic,Network Traffic Flow
+1867,T1020,Network Traffic,Network Connection Creation
+1868,T1020,Network Traffic,Network Traffic Content
+1869,T1018,Network Traffic,Network Connection Creation
+1870,T1018,Process,Process Creation
+1871,T1018,Command,Command Execution
+1872,T1018,File,File Access
+1873,T1016,Process,OS API Execution
+1874,T1016,Process,Process Creation
+1875,T1016,Command,Command Execution
+1876,T1016,Script,Script Execution
+1877,T1014,File,File Modification
+1878,T1014,Drive,Drive Modification
+1879,T1014,Firmware,Firmware Modification
+1880,T1012,Command,Command Execution
+1881,T1012,Windows Registry,Windows Registry Key Access
+1882,T1012,Process,Process Creation
+1883,T1012,Process,OS API Execution
+1884,T1011,Network Traffic,Network Traffic Flow
+1885,T1011,Network Traffic,Network Traffic Content
+1886,T1011,File,File Access
+1887,T1011,Network Traffic,Network Connection Creation
+1888,T1011,Command,Command Execution
+1889,T1010,Command,Command Execution
+1890,T1010,Process,Process Creation
+1891,T1010,Process,OS API Execution
+1892,T1008,Network Traffic,Network Traffic Flow
+1893,T1008,Network Traffic,Network Connection Creation
+1894,T1007,Process,Process Creation
+1895,T1007,Process,OS API Execution
+1896,T1007,Command,Command Execution
+1897,T1006,Drive,Drive Access
+1898,T1006,Command,Command Execution
+1899,T1005,File,File Access
+1900,T1005,Script,Script Execution
+1901,T1005,Command,Command Execution
+1902,T1005,Process,Process Creation
+1903,T1005,Process,OS API Execution
+1904,T1003,Process,OS API Execution
+1905,T1003,Command,Command Execution
+1906,T1003,File,File Access
+1907,T1003,Process,Process Creation
+1908,T1003,Active Directory,Active Directory Object Access
+1909,T1003,Network Traffic,Network Traffic Flow
+1910,T1003,Windows Registry,Windows Registry Key Access
+1911,T1003,Process,Process Access
+1912,T1003,Network Traffic,Network Traffic Content
+1913,T1001,Network Traffic,Network Traffic Content

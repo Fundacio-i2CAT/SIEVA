@@ -1,0 +1,95 @@
+=================================
+5. Hands-on
+=================================
+
+1. Start the API
+==================
+
+To use the software provided, it is necessary to open a server. Execute the following CLI commands 
+to start. 
+
+.. code-block:: bash
+
+   $ cd sieva/
+   $ pip install -r requirements.txt
+   $ uvicorn AI_Engine.main:app --reload --port 8081 --reload
+
+In the following sections the other endpoints can be explored.
+
+
+
+2. Endpoint 1/3: Predict
+=========================
+
+Using an already trained and saved model, this endpoint allows you to make predictions over new traffic logs data.
+This endpoint gets the data from /data/datasets/fasttext_test*.txt, with * in [0,...] In order to perform
+a prediction over the data already saved in the previous path, acces the endpoint following the next example:
+
+.. code-block:: bash
+
+    $ curl http://127.0.0.1:8081/predict?test_number=0
+
+
+This call returns: 
+
+.. code-block:: json
+
+    {
+        "Predictions Results" : 
+                         
+                        {
+                            
+                            "Accuracy": "0.9978469305502524", 
+                            "Recall": "0.9978469305502524", 
+                            "F1 score": "0.9978469305502524"
+
+                        },
+                    
+        "Path to predictions" : "data/datasets/predictions.csv"
+
+    }
+
+
+3. Endpoint 2/3: Train
+==========================
+
+The API offers also the option to provide raw data and re-train the model. In order to perform a new training of the selected model, there exists
+two options, defined by a boolean parameter (``retrieve_data``)in the moment of the API request: either the parameter is false and the already retrieved raw data data is used,
+or it is True, leading to retrieve again the data from the elastic server. 
+**Disclaimer: if the parameter is True, the connection must be performed with the i2cat Fortinet VPN activated.**
+add the data in data/raw_data/ as a **file of raw logs, with the log's type as the first word of the file's name (f.i "dns-infloblox-nios.txt")**,
+which will be properly processed before being automatically left in data/datasets/fasttext_train.txt. This processed data will be used to train 
+the model when an API call with the structure of the following example is performed:
+
+
+.. code-block:: bash
+
+    $ curl http://127.0.0.1:8081/train?retrieve_data=False
+
+It returns the path were the trained model has been saved, specifically:
+
+.. code-block:: json
+
+    {
+        "model path" : "data/model/fasttext_model.bin"
+    }
+
+Endpoint 3/3 : Generate usable data
+====================================
+
+This endpoint is implemented in order to allow the user the option of adding more raw data to the path and generate a properly processed dataset to use to train or test the model.
+It does not receive any path as the raw_data path is included in the configuration file. Whether prepare the data for the fasttext model or the other is also specified in the 
+configuration file. It also allows the option to define the id of the test set that will be generated.
+
+.. code-block:: bash
+
+    $ curl http://127.0.0.1:8081/prepare_data?test_id=0
+
+It returns the path were the prepared data has been saved, specifically:
+
+.. code-block:: json
+
+    {
+        "model path" : "data/datasets/"
+    }
+    

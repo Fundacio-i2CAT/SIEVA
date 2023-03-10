@@ -1,0 +1,32 @@
+[
+    {"classification_validate_dataset" : 
+            { 
+                "firewall": ["FILENAME", "PACKETS-SENT", "URL", "SORUCE", "APPLICATION", "PACKETS-RECEIVED", "BYTES-SENT", "BYTES-RECEIVED"],
+                "dns" : ["IP", "PROTOCOL", "CODE", "BYTES-SENT", "URL", "USER_AGENT"],
+                "webserver" : ["IP", "URL", "HTTP-CODE", "HTTP-METHOD"],
+                "evtx" : [],
+                "identity" : [],
+                "dhcp"     : []
+            }
+    },
+    { "index1" : 
+        { 
+            "dns" : ["IP", "PROTOCOL", "CODE", "BYTES-SENT", "URL", "USER_AGENT"]
+        }
+    },
+    { "index2" : 
+        { 
+            "dns" : ["IP", "PROTOCOL", "CODE", "BYTES-SENT", "URL", "USER_AGENT"]
+        }
+    },
+    { "index3" : 
+        { 
+            "firewall": ["FILENAME", "PACKETS-SENT", "URL", "SORUCE", "APPLICATION", "PACKETS-RECEIVED", "BYTES-SENT", "BYTES-RECEIVED"],
+            "dns" : ["IP", "PROTOCOL", "CODE", "BYTES-SENT", "URL", "USER_AGENT"],
+            "webserver" : ["IP", "URL", "HTTP-CODE", "HTTP-METHOD"],
+            "evtx" : [],
+            "identity" : [],
+            "dhcp"     : []
+        }
+    }
+]   

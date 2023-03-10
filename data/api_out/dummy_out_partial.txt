@@ -1,0 +1,798 @@
+[
+    {
+        "techniqueID": "T1548",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1548.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1134.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1134.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1531",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1087.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1098",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1098.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1098.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1583.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1595",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1595.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1557",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1071.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1119",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1020",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1547",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1547.014",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1547.010",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1547.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1037",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1037.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1217",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1110.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1612",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1115",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1059",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1059.007",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1059.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1059.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1584.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1613",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1136",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1136.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1136.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1543.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1132.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1132.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1001.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1074.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1602",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1602.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1602.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1213.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1491",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1140",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1587.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1561",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1484.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1189",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1568.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1568.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1499.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1499.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1546.008",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1546.015",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1546.014",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1546.013",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1011",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1011.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1567.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1211",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1068",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1222.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1592",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1589",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1589.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1589.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1590.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1590.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1590.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1591.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1564",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1564.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1564.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1564.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1564.009",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1574.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1574.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1574.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1574.013",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1574.007",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1574.009",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1574.011",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1562.008",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1562.007",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1562.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1562.009",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1070.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1070.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1490",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1056",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1056.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1559",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1559.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1559.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1036.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1036.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1036.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1036.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1556",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1556.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1556.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1578",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1578.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1112",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1601.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1599",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1498.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1498.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1046",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1095",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1571",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1003.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1003.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1003.007",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1003.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1027.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1588",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1588.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1588.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1137.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1137.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1137.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1120",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1069.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1566",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1598.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1566.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1542.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1542.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1542.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1055",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1055.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1055.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1055.009",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1055.014",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1090.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1090.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1620",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1219",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1563.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1021.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1021.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1021.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1021.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1021.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1496",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1053",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1053.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1053.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1053.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1029",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1596.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1593",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1505",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1505.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1505.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1489",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1518",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1518.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1608",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1608.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1608.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1558.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1558.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1558.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1553.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1195.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1218.013",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1218.005",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1218.007",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1218.008",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1218.010",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1082",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1614.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1016.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1049",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1033",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1216.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1569",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1569.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1569.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1080",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1205.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1552.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1552.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1552.006",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1552.004",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1550",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1550.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1204.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1204.003",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1204.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1078",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1078.001",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1497.002",
+        "color": "#ffd966"
+    },
+    {
+        "techniqueID": "T1600.002",
+        "color": "#ffd966"
+    }
+]

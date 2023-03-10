@@ -1,0 +1,7 @@
+*.pyc
+nav-app/node_modules/
+sieva_plots/node_modules/
+sieva_plots/.angular/
+sieva_plots/dist/
+#logs/
+venv/

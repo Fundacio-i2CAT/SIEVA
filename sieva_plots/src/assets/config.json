@@ -1,0 +1,78 @@
+{
+    "type": "hbar3d",
+    "3dAspect": {
+      "depth": 45,
+      "true3d": false,
+      "yAngle": 10
+    },
+    "height": 300,
+    "plot": {
+      "tooltip": {
+        "text": "%k · %t <br> %v",
+        "borderColor": "#ffffff",
+        "borderWidth": "1px",
+        "fontColor": "white",
+        "fontSize": 16,
+        "height": 100
+      },
+      "stacked": true,
+      "stack-type": "100%",
+      "alpha": 0.9,
+      "barWidth": "85px"
+    },
+    "plotarea": {
+      "margin": "0% -10% -70% 10%"
+    },
+    "scaleX": {
+      "values": [
+        "Index 1"
+      ],
+      "item": {
+        "fontColor": "black",
+        "fontSize": 17,
+        "offsetX": "-5%",
+        "bold": true
+      },
+      "guide": {
+        "visible": false
+      }
+    },
+    "scaleY": {
+      "min-value": 0,
+      "max-value": 100,
+      "item": {
+        "fontColor": "#acbad0"
+      },
+      "tick": {
+        "lineColor": "#6e82a1"
+      },
+      "guide": {
+        "visible": false
+      },
+      "visible": false
+
+    },
+    "series": [
+      {
+        "text": "filebeat",
+        "values": [76.7458580307],
+        "backgroundColor": "#7D7B6E"
+
+      },
+      {
+        "text": "evtx",
+        "values": [12.5517246889],
+        "backgroundColor": "#A3A090"
+      },
+      {
+        "text": "dns",
+        "values": [9.4877857839],
+        "backgroundColor": "#BDB9A6"
+      },
+      {
+        "text": "Webserver",
+        "values": [1.2146314965],
+        "backgroundColor": "#D7D3BD"
+      }
+    ]
+  }
