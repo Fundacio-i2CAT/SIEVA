@@ -1,0 +1,2 @@
+data/datasets/fasttext_fasttext_train.txt filter=lfs diff=lfs merge=lfs -text
+data/model/model-best/vocab/vectors filter=lfs diff=lfs merge=lfs -text
