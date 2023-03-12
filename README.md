@@ -25,10 +25,6 @@ Docker (recommended 20.x or latest)
 ElasticSearch 7.x (recommended 7.17.x)
 
 
-# How to install it (opcional, si és possible)
-
-Installation instructions, in case any pre-build binaries are shipped within the repository or can be downloaded from some URL.
-
 # How to build it
 
 ``` bash
