@@ -22,6 +22,7 @@ SIEVA is a tool which provides visibility to data ingested by SIEMs, using artif
 # Pre-requisites
 
 Docker (recommended 20.x or latest)
+
 ElasticSearch 7.x (recommended 7.17.x)
 
 
