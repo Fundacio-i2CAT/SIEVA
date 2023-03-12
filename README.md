@@ -1,6 +1,7 @@
 <div style="position: relative;">
-  <img src="https://wikifab.org/images/b/b6/Group-i2CAT_logo-color-alta.jp" style="width: 25%; height: 25%; position: absolute; right: 0;">
+  <img src="https://wikifab.org/images/b/b6/Group-i2CAT_logo-color-alta.jpg" style="width: 25%; height: 25%; position: absolute; right: 0;">
 </div>
+
 <div style="position: relative;">
   <img src="https://github.com/Fundacio-i2CAT/SIEVA/blob/master/logo.PNG" style="width: 25%; height: 25%; position: absolute; left: 0;">
 </div>
