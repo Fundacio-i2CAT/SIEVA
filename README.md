@@ -1,4 +1,4 @@
-<img src="https://wikifab.org/images/b/b6/Group-i2CAT_logo-color-alta.jpg" width=25% height=25%> <img src="https://github.com/Fundacio-i2CAT/SIEVA/blob/master/logo.PNG" width=25% height=25%>
+<img src="https://wikifab.org/images/b/b6/Group-i2CAT_logo-color-alta.jpg" width=25% height=25% position=absolute left=0> <img src="https://github.com/Fundacio-i2CAT/SIEVA/blob/master/logo.PNG" width=25% height=25% position=absolute right=0>
 
 
 [![Maintenance](https://img.shields.io/badge/Status-Maintained-green.svg)]()
