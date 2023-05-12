@@ -46,7 +46,7 @@ Then, the matrix is found in localhost:9000 and the plots data in localhost:9001
 curl http://127.0.0.1:8081/train?train_pairs={["webserver" : ["webproxy-squid", "webserver-generic", "webserver-nginx"]]}
 ```
 
-Call this endpoint in order to re-train the model with the existent data. The data that will be used is found in an `elasticsearch` database which, so far, requires to be connected to the i2Cat FortiNet VPN to retrieve data from it.
+Call this endpoint in order to re-train the model with the existent data. 
 
 **`parameters`** : `train_pairs` -> Dictionary made out of _training-label_ : [_train-index0_, _train-index1_, ...]
 
@@ -63,7 +63,7 @@ Call this endpoint in order to re-train the model with the existent data. The da
 curl http://127.0.0.1:8081/predict?predict_idxs=["classification_validate_dataset"]
 ```
 
-Call this endpoint to perform a prediction with the pre-trained model over the indexes provided as a parameter. Again, if the datasets are stored in the `elasticsearch` database, a connection through the VPN is required.
+Call this endpoint to perform a prediction with the pre-trained model over the indexes provided as a parameter. 
 
 **`parameters`** : `predict_idxs` -> List made out of [_predict-index0_, _predict-index1_, ...]
 
