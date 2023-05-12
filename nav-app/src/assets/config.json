@@ -160,7 +160,7 @@
 
     "default_layers": {
         "enabled": true,
-        "urls": ["/loadConfig"]
+        "urls": ["http://84.88.36.225:8081/loadConfig"]
     },
 
     "comment_color": "yellow",
