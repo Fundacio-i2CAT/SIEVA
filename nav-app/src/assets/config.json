@@ -160,7 +160,7 @@
 
     "default_layers": {
         "enabled": true,
-        "urls": ["http://172.26.212.33:8081/loadConfig"]
+        "urls": ["localhost:8081/loadConfig"]
     },
 
     "comment_color": "yellow",
