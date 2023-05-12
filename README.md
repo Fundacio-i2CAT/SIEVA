@@ -30,7 +30,7 @@ ElasticSearch 7.x (recommended 7.17.x)
 
 ``` bash
 cd sieva
-docker compose up -d --build --quiet
+docker-compose up -d --build --quiet
 ```
 
 Then, the matrix is found in localhost:9000 and the plots data in localhost:9001
