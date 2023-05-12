@@ -1188,11 +1188,11 @@
           },
           {
             "name": "High / 73",
-            "value": "Potential Privacy Control Bypass via Localhost Secure Copy [EQL]"
+            "value": "Potential Privacy Control Bypass via 127.0.0.1 Secure Copy [EQL]"
           },
           {
             "name": "High / 73",
-            "value": "Potential Privacy Control Bypass via Localhost Secure Copy [EQL]"
+            "value": "Potential Privacy Control Bypass via 127.0.0.1 Secure Copy [EQL]"
           },
           {
             "name": "Med. / 47",

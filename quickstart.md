@@ -24,7 +24,7 @@ cd sieva
 docker compose up -d --build --quiet
 ```
 
-Then, the matrix is found in localhost:9000 and the plots data in localhost:9001
+Then, the matrix is found in 127.0.0.1:9000 and the plots data in 127.0.0.1:9001
 
 Afterwards, requests can be done to 3 different endpoints:
 

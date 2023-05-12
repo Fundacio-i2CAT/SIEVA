@@ -29,18 +29,18 @@ app = FastAPI()
 
 #Preguntar si els possibles origins d'acces a la API han de ser part d'un input/fitxer de config
 origins = [
-    "http://localhost",
-    "http://localhost:8081",
-    "http://localhost:4200",
-    "http://localhost:4201",
-    "http://localhost:9000",
-    "http://localhost:9001",
-    "http://localhost",
-    "http://localhost:8081",
-    "http://localhost:4200",
-    "http://localhost:4201",
-    "http://localhost:9000",
-    "http://localhost:9001",
+    "http://127.0.0.1",
+    "http://127.0.0.1:8081",
+    "http://127.0.0.1:4200",
+    "http://127.0.0.1:4201",
+    "http://127.0.0.1:9000",
+    "http://127.0.0.1:9001",
+    "http://127.0.0.1",
+    "http://127.0.0.1:8081",
+    "http://127.0.0.1:4200",
+    "http://127.0.0.1:4201",
+    "http://127.0.0.1:9000",
+    "http://127.0.0.1:9001",
 
 ]
 app.add_middleware(

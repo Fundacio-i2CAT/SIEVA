@@ -112,7 +112,7 @@ if __name__ == '__main__':
     rawData_path = "data/raw_data/"
     dataset_path = "data/datasets/"
 
-    db_host = "localhost" 
+    db_host = "127.0.0.1" 
 
     fasttext = True 
     

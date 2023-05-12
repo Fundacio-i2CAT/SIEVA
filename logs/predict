@@ -1,9 +1,9 @@
 DEBUG:fastapi:[PATH] Model Path:data/model/model-best
 DEBUG:fastapi:[PATH] RawData Path:data/raw_data/
 DEBUG:fastapi:[OPTIONS] Data retrieved? :True
-DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:9200
-DEBUG:urllib3.connectionpool:http://localhost:9200 "GET / HTTP/1.1" 200 534
-INFO:elasticsearch:GET http://localhost:9200/ [status:200 request:0.096s]
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:9200
+DEBUG:urllib3.connectionpool:http://127.0.0.1:9200 "GET / HTTP/1.1" 200 534
+INFO:elasticsearch:GET http://127.0.0.1:9200/ [status:200 request:0.096s]
 DEBUG:elasticsearch:> None
 DEBUG:elasticsearch:< {
   "name" : "master-SIEVA",
@@ -23,8 +23,8 @@ DEBUG:elasticsearch:< {
   "tagline" : "You Know, for Search"
 }
 
-DEBUG:urllib3.connectionpool:http://localhost:9200 "HEAD / HTTP/1.1" 200 0
-INFO:elasticsearch:HEAD http://localhost:9200/ [status:200 request:0.051s]
+DEBUG:urllib3.connectionpool:http://127.0.0.1:9200 "HEAD / HTTP/1.1" 200 0
+INFO:elasticsearch:HEAD http://127.0.0.1:9200/ [status:200 request:0.051s]
 DEBUG:elasticsearch:> None
 DEBUG:elasticsearch:< 
 INFO:uvicorn.error:Shutting down
