@@ -47,7 +47,7 @@ There are some parameters defined by the configuration file `src/config_files/co
    PREDICTIONS_PATH = data/predictions/
 
    [ELASTIC]
-   CLIENT_HOST = 172.26.212.33
+   CLIENT_HOST = localhost
 
    [OPTIONS]
    RETRIEVE = True

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiURL: "http://172.26.212.33",
+  apiURL: "http://localhost",
   matrixPort: "9000",
   plotsPort: "9001",
   backPort: "8081"

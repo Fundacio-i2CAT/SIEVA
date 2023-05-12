@@ -214,7 +214,7 @@ def technique_overlapping(output_dict: dict) -> dict:
 
 if __name__ == "__main__":
     None
-    # get_datasets_elastic(client_host='172.26.212.33')
+    # get_datasets_elastic(client_host='localhost')
     # print(category_percent("data/predictions/predictions.csv", data_sources = True))
     technique_overlapping({
     "classification_validate_dataset": {
