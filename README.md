@@ -21,7 +21,7 @@ SIEVA is a tool which provides visibility to data ingested by SIEMs, using artif
 
 This project is currently under development
 
-The current version is a stable MVP which requires adjustment and fine tunning before it can be deployed to a production environemnt
+The current version is a stable **MVP** which requires adjustment and fine tunning before it can be deployed to a production environemnt
 
 # Pre-requisites
 
