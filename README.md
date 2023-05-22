@@ -19,6 +19,9 @@
 
 SIEVA is a tool which provides visibility to data ingested by SIEMs, using artificial intelligence, SIEVA analyses the information contained in the logs, classifies such information according to the MITRE ATT&CK framework data sources, and provides a high level view of the ATT&CK Matrix, colour coded to reflect which tactics and techniques can be monitoried with the current information of the system. SIEVA also provides a detailed view of the data analysed on each individual Elasticsearch Index.
 
+This project is currently under development
+The current version is a stable MVP which requires adjustment and fine tunning before it can be deployed to a production environemnt
+
 # Pre-requisites
 
 Docker (recommended 20.x or latest)
@@ -33,7 +36,7 @@ cd sieva
 docker-compose up -d --build --quiet
 ```
 
-Then, the matrix is found in 127.0.0.1:9000 and the plots data in 127.0.0.1:9001
+The application can be accessed in server_ip:9000 and the plots data in server_ip:9001
 
 
 # How to use
@@ -43,7 +46,7 @@ Then, the matrix is found in 127.0.0.1:9000 and the plots data in 127.0.0.1:9001
 ### `/train`
 
 ```bash
-curl http://127.0.0.1:8081/train?train_pairs={["webserver" : ["webproxy-squid", "webserver-generic", "webserver-nginx"]]}
+curl http://server_ip:8081/train?train_pairs={["webserver" : ["webproxy-squid", "webserver-generic", "webserver-nginx"]]}
 ```
 
 Call this endpoint in order to re-train the model with the existent data. 
@@ -60,7 +63,7 @@ Call this endpoint in order to re-train the model with the existent data.
 ### `/predict`
 
 ```bash
-curl http://127.0.0.1:8081/predict?predict_idxs=["classification_validate_dataset"]
+curl http://server_ip:8081/predict?predict_idxs=["classification_validate_dataset"]
 ```
 
 Call this endpoint to perform a prediction with the pre-trained model over the indexes provided as a parameter. 
