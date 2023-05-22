@@ -20,6 +20,7 @@
 SIEVA is a tool which provides visibility to data ingested by SIEMs, using artificial intelligence, SIEVA analyses the information contained in the logs, classifies such information according to the MITRE ATT&CK framework data sources, and provides a high level view of the ATT&CK Matrix, colour coded to reflect which tactics and techniques can be monitoried with the current information of the system. SIEVA also provides a detailed view of the data analysed on each individual Elasticsearch Index.
 
 This project is currently under development
+
 The current version is a stable MVP which requires adjustment and fine tunning before it can be deployed to a production environemnt
 
 # Pre-requisites
