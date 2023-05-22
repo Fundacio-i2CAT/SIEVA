@@ -37,17 +37,13 @@ Download repository
 Modify the following sections according to your environemnt, changing <server_ip> with the IPv4 of the server where the application is deployed:
 
 /nav-app/src/environments/environment.prod.ts
-
 line 3:
-
 ``` bash
 apiURL: "http://<server_ip>",
 ```
 
 nav-app/src/assets/config.json
-
 line 163:
-
 ``` bash
 "urls": ["http://<server_ip>:8081/loadConfig"]
 ```
